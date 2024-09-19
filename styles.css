@@ -42,7 +42,7 @@ of the container */
 body {
   text-align: justify;
   font-family: sans-serif;
-  font-size: large;
+  font-size: medium;
   margin: 0;
   background-color: #08031a;
   /* you can delete the line below if you'd prefer to not use an image */
@@ -128,6 +128,11 @@ footer {
   /* this centers the footer text */
 }
 
-div #last-edited {
+div#last-edited {
   font-size: 12px;
+}
+
+p#image-description {
+  font-size: small;
+  text-align: center;
 }
