@@ -85,3 +85,7 @@ h1 {
 strong {
   color: chocolate;
 }
+
+div #last-edited{
+    font-size: 12px;
+}
