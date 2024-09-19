@@ -118,6 +118,16 @@ a {
   text-decoration: underline;
 }
 
+footer {
+  background-color: #13092d;
+  /* background color for footer */
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+  /* this centers the footer text */
+}
+
 div #last-edited {
   font-size: 12px;
 }
