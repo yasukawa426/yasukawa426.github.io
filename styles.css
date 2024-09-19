@@ -1,0 +1,87 @@
+:root {
+  /* --header-image: url(resources/stars.gif); */
+  --body-bg-image: url(resources/stars.gif);
+  --content: #43256e;
+  /* colors */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* so you wanna change the width of your page? 
+    by default, the container width is 900px.
+    in order to keep things responsive, take your new height,
+    and then subtrack it by 100. use this new number as the 
+    "max-width" value below
+    */
+
+@media only screen and (max-width: 1000px) {
+  #flex {
+    flex-wrap: wrap;
+  }
+}
+
+/* the "container" is what wraps your entire website */
+/* if you want something (like the header) to be Wider than
+the other elements, you will need to move that div outside
+of the container */
+#container {
+  max-width: 900px;
+  /* this is the width of your layout! */
+  /* if you change the above value, scroll to the bottom
+    and change the media query according to the comment! */
+  margin: 0 auto;
+  /* this centers the entire page */
+}
+
+/* links */
+#container a {
+  color: gold;
+  font-weight: bold;
+  /* if you want to remove the underline
+    you can add a line below here that says:
+    text-decoration:none; */
+}
+
+#flex {
+  display: flex;
+}
+
+body {
+  text-align: justify;
+  font-family: sans-serif;
+  font-size: large;
+  margin: 0;
+  background-color: #08031a;
+  /* you can delete the line below if you'd prefer to not use an image */
+  /* background-size: 65px; */
+  /* text color */
+  color: #fceaff;
+  background-image: var(--body-bg-image);
+}
+
+/* this is the color of the main content area */
+main {
+  background-color: rgb(1, 57, 57);
+  flex: 1;
+  padding: 10px;
+}
+
+/* headlines stuff */
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: rgb(6, 179, 179);
+}
+
+h1 {
+  font-size: 27px;
+  background-color: black;
+}
+
+/* bold style */
+strong {
+  color: chocolate;
+}
