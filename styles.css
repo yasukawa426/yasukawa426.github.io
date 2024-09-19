@@ -35,15 +35,6 @@ of the container */
   /* this centers the entire page */
 }
 
-/* links */
-#container a {
-  color: gold;
-  font-weight: bold;
-  /* if you want to remove the underline
-    you can add a line below here that says:
-    text-decoration:none; */
-}
-
 #flex {
   display: flex;
 }
@@ -86,6 +77,47 @@ strong {
   color: chocolate;
 }
 
-div #last-edited{
-    font-size: 12px;
+/* links */
+a {
+  color: aqua;
+  font-weight: bold;
+  /* if you want to remove the underline
+    you can add a line below here that says:
+    text-decoration:none; */
+}
+
+/* navigation section!! */
+#navbar {
+  height: 40px;
+  background-color: #13092d;
+  /* navbar color */
+  width: 100%;
+}
+
+#navbar ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+#navbar li {
+  padding-top: 10px;
+}
+
+/* navigation links*/
+#navbar li a {
+  font-weight: 800;
+  text-decoration: none;
+  /* this removes the underline */
+}
+
+/* navigation link when a link is hovered over */
+#navbar li a:hover {
+  text-decoration: underline;
+}
+
+div #last-edited {
+  font-size: 12px;
 }
