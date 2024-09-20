@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SadBoy's Place</title>
     <link rel="stylesheet" href="/styles.css" />
-
+    <script src="/components/loader.js" type="module" defer></script>
     <style>
       img#me {
         width: 30%;
@@ -33,11 +33,7 @@
   <body>
     <div id="container">
       <div id="headerArea">
-        <nav id="navbar">
-          <ul>
-            <li><a href="/">Home</a></li>
-          </ul>
-        </nav>
+        <navbar-component></navbar-component>
       </div>
       <div id="flex">
         <main>
@@ -107,6 +103,7 @@
             src="/resources/videos/fighting.mp4"
             controls
             style="height: 500px"
+            preload="metadata"
           ></video>
           <p>
             My mom and I adopted Morceguinha when she was around 2 months old
