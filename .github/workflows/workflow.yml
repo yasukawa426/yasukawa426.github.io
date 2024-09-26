@@ -17,9 +17,7 @@ jobs:
 
       - name: Commit and Push
         run: |
-          git add .
-          git commit -m "Auto gen dir"
-          git push # upload generated folder
+          git status -s
 
   deploy:
     needs: pages-directory-listing
