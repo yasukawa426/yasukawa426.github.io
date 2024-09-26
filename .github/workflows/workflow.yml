@@ -15,10 +15,11 @@ jobs:
         with:
           FOLDER: "/html" #directory to generate index
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: "/html" # upload generated folder
+      - name: Commit and Push
+        run: |
+          git add .
+          git commmit -m "Auto gen dir"
+          git push # upload generated folder
 
   deploy:
     needs: pages-directory-listing
