@@ -137,3 +137,29 @@ p#image-description {
   font-size: small;
   text-align: center;
 }
+
+/* CSS for tooltip use. */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1.5px dotted var(--text-color);
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  background-image: var(--body-bg-image);
+  color: var(--text-color);
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
