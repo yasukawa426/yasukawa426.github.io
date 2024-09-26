@@ -2,6 +2,7 @@
   /* --header-image: url(resources/stars.gif); */
   --body-bg-image: url(resources/background_images/stars.gif);
   --content: #43256e;
+  --text-color: #fceaff;
   /* colors */
 }
 
@@ -48,7 +49,7 @@ body {
   /* you can delete the line below if you'd prefer to not use an image */
   /* background-size: 65px; */
   /* text color */
-  color: #fceaff;
+  color: var(--text-color);
   background-image: var(--body-bg-image);
 }
 
