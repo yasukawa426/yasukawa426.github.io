@@ -18,7 +18,7 @@ jobs:
       - name: Commit and Push
         run: |
           git add .
-          git commmit -m "Auto gen dir"
+          git commit -m "Auto gen dir"
           git push # upload generated folder
 
   deploy:
