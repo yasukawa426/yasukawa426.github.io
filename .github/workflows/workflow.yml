@@ -15,9 +15,13 @@ jobs:
         with:
           FOLDER: "/html" #directory to generate index
 
-      - name: Commit and Push
+      - name: Get status
         run: |
-          git status -s
+          echo "FOO=$(git status -s)" >> $GITHUB_ENV
+
+      - name: Print Status
+        run: |
+          echo "${{ env.FOO }}"
 
   deploy:
     needs: pages-directory-listing
