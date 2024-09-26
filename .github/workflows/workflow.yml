@@ -1,4 +1,5 @@
 name: directory-listing
+
 on: [push]
 
 jobs:
@@ -8,18 +9,16 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
-        with:
-          ref: dummy-data #checkout different branch
 
       - name: Generate Directory Listings
         uses: jayanta525/github-pages-directory-listing@v4.0.0
         with:
-          FOLDER: "/" #directory to generate index
+          FOLDER: "/index" #directory to generate index
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: "data" # upload generated folder
+          path: "/index" # upload generated folder
 
   deploy:
     needs: pages-directory-listing
