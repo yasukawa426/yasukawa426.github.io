@@ -22,7 +22,9 @@
             This page will contain links to every dream I have while sleeping. I
             dream very frequently so I expect this page to grow very fast.
           </p>
-          
+
+          <p>Dream count: <strong id="count">0</strong></p>
+
           <ul>
             <li>
               <a href="dreams/092024/weird_girl_dream.html"
@@ -32,6 +34,13 @@
               and met a weird girl.
             </li>
           </ul>
+
+          <script>
+            const dreams = document.getElementsByTagName("li");
+            let count = document.getElementById("count");
+
+            count.innerHTML = dreams.length;
+          </script>
         </main>
       </div>
     </div>
