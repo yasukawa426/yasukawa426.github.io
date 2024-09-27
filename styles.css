@@ -134,7 +134,7 @@ div#last-edited {
   font-size: 12px;
 }
 
-p#image-description {
+p.image-description {
   font-size: small;
   text-align: center;
 }
