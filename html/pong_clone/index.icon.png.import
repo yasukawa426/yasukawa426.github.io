@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dpial53bkc8ub"
-path="res://.godot/imported/index.icon.png-e1aab91d41ecf951d3121c1c8bafaf2d.ctex"
+uid="uid://buhphcrgo8mpp"
+path="res://.godot/imported/index.icon.png-f68f26f157a37cb2a06061afa4ebbb13.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://export/Pong Clone - Web/index.icon.png"
-dest_files=["res://.godot/imported/index.icon.png-e1aab91d41ecf951d3121c1c8bafaf2d.ctex"]
+source_file="res://export/pong_clone/index.icon.png"
+dest_files=["res://.godot/imported/index.icon.png-f68f26f157a37cb2a06061afa4ebbb13.ctex"]
 
 [params]
 
