@@ -6,6 +6,25 @@
     <title>SadBoy's Place</title>
     <link rel="stylesheet" href="/styles.css" />
     <script src="/components/loader.js" type="module" defer></script>
+    <style>
+      :root {
+        --border-color: #798492;
+        --border-width: max(1px, 0.0625rem);
+        --border-style: solid;
+      }
+
+      div.date-container {
+        margin: 1rem;
+        padding: 0.5rem;
+        border: var(--border-width) var(--border-style) var(--border-color);
+        border-radius: 0.375rem;
+      }
+
+      div.date-container > div.change-header {
+        border-bottom: var(--border-width) var(--border-style)
+          var(--border-color);
+      }
+    </style>
   </head>
   <body>
     <div id="container">
@@ -15,72 +34,99 @@
       <div id="flex">
         <main>
           <div id="last-edited">
-            last edited: <strong>27/09/2024</strong> (dd/mm/yyyy)
+            last edited: <strong>01/10/2024</strong> (dd/mm/yyyy)
           </div>
           <h1>Changelog.</h1>
-          <h2>27/09/2024</h2>
-          <p>
-            I didn't write the changes while I was updating the site so I will
-            write everything I did at one here. I don't care.
-          </p>
-          <ul>
-            <li>
-              <strong>About Me:</strong>
-              <ul>
-                <li>Added "Qualities and Flaws" section.</li>
-                <li>Added "Quirks" section.</li>
-                <li>Added "Hobbies" section.</li>
-                <li>
-                  <strong>"More about me" section:</strong>
-                  <ul>
-                    <li>
-                      <strong>Added Dream Journal link:</strong>
-                      <ul>
-                        <li>Added "Weird Girl Dream"</li>
-                      </ul>
-                    </li>
-                    <li>
-                      <strong>Added Hobbies link:</strong>
-                      <ul>
-                        <li>
-                          <strong>Added Gaming link:</strong>
-                          <ul>
-                            <li>
-                              Added sections: "All My Steam Games", "Backlog",
-                              "Playing", and "Finished"
-                            </li>
-                            <li>Added a couple games to Finished</li>
-                            <li>Added all my steam games to steam games</li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong>Home:</strong>
-              <ul>
-                <li>Added links: Dream Journal and Gaming.</li>
-                <li>Removed "Template" link.</li>
-              </ul>
-            </li>
-            <li>
-              <strong>Styling:</strong>
-              <ul>
-                <li>
-                  Changed h1 background to the same image as body background.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong>Code stuff:</strong>
-              <ul>
-                <li>Changed image description text id to class.</li>
-              </ul>
-            </li>
-          </ul>
+          <p>All dates are in <strong>dd/mm/yyyy</strong> format.</p>
+
+          <div class="date-container">
+            <div class="change-header">
+              <h2>01/10/2024</h2>
+              <p>Almost no changes this time.</p>
+            </div>
+            <ul>
+              <li>
+                <strong>Home:</strong>
+                <ul>
+                  <li>Added link to "Pong Clone".</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Changelog:</strong>
+                <ul>
+                  <li>Style changes.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <div class="date-container">
+            <div class="change-header">
+              <h2>27/09/2024</h2>
+              <p>
+                I didn't write the changes while I was updating the site so I
+                will write everything I did at once here. I don't care.
+              </p>
+            </div>
+            <ul>
+              <li>
+                <strong>About Me:</strong>
+                <ul>
+                  <li>Added "Qualities and Flaws" section.</li>
+                  <li>Added "Quirks" section.</li>
+                  <li>Added "Hobbies" section.</li>
+                  <li>
+                    <strong>"More about me" section:</strong>
+                    <ul>
+                      <li>
+                        <strong>Added Dream Journal link:</strong>
+                        <ul>
+                          <li>Added "Weird Girl Dream"</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Added Hobbies link:</strong>
+                        <ul>
+                          <li>
+                            <strong>Added Gaming link:</strong>
+                            <ul>
+                              <li>
+                                Added sections: "All My Steam Games", "Backlog",
+                                "Playing", and "Finished"
+                              </li>
+                              <li>Added a couple games to Finished</li>
+                              <li>Added all my steam games to steam games</li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Home:</strong>
+                <ul>
+                  <li>Added links: Dream Journal and Gaming.</li>
+                  <li>Removed "Template" link.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Styling:</strong>
+                <ul>
+                  <li>
+                    Changed h1 background to the same image as body background.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Code stuff:</strong>
+                <ul>
+                  <li>Changed image description text id to class.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </main>
       </div>
     </div>
