@@ -6,6 +6,20 @@
     <title>SadBoy's Place</title>
     <link rel="stylesheet" href="/styles.css" />
     <script src="/components/loader.js" type="module" defer></script>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-1T5L5ZNXHP"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-1T5L5ZNXHP");
+    </script>
     <style>
       :root {
         --border-color: #798492;
@@ -45,6 +59,12 @@
               <p>Almost no changes this time.</p>
             </div>
             <ul>
+              <li>
+                <strong>General:</strong>
+                <ul>
+                  <li>Added Google Analytics.</li>
+                </ul>
+              </li>
               <li>
                 <strong>Home:</strong>
                 <ul>
