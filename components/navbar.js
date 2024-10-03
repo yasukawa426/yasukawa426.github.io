@@ -7,8 +7,10 @@ class NavBar extends HTMLElement {
   connectedCallback() {
     this.innerHTML = ` 
         <nav id="navbar">
-          <ul>
+        <ul>
+            <li><a onclick="history.back()"><</a></li>
             <li><a href="/">Home</a></li>
+            <li></li>
           </ul>
         </nav>
     `;
