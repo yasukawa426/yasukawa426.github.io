@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SadBoy's Place - My Games</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/components/loader.js" type="module" defer></script>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-1T5L5ZNXHP"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-1T5L5ZNXHP");
+    </script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="headerArea">
+        <navbar-component></navbar-component>
+      </div>
+      <div id="flex">
+        <main>
+          <div id="last-edited">
+            last edited: <strong>03/10/2024</strong> (dd/mm/yyyy)
+          </div>
+          <h1>My Games</h1>
+          <p>
+            This page will contain every game I develop. If you want, you can
+            also check my
+            <a href="https://yasukawa426.itch.io/">Itch.io page</a>. There is
+            not much yet to see there, but I plan to make more games in the
+            future.
+          </p>
+          <ul>
+            <li><a href="pong_clone/index.html">Pong Clone:</a> A simple Pong clone I made using Godot.</li>
+            <li><a href="snake/Snake.html">Snake:</a> Simple snake game made in Godot.</li>
+          </ul>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
