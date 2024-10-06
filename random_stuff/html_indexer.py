@@ -31,7 +31,7 @@ def generate_html_list(path, number=0):
                 page_number += 1
 
                 # Remove "_", make each word capitalized, and turns ".Html" into ".html"
-                formated_item = item.replace("_", " ").title().replace("H", "h")
+                formated_item = item.replace("_", " ").replace(".html", "").title()
 
                 html += f'<li><a href="{item_path}">{formated_item}</a></li>\n'  # File
     html += "</ul>\n"
