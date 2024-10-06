@@ -84,6 +84,7 @@
       "          <h1>${1:dream name}</h1>\r",
       "          <p><strong>Score: ${3:score}/10</strong></p>",
       "          <p><strong>Date: ${4:day}/${5:month}/${6:year}</strong></p>",
+	  "          <hr>",
       "          <p>${0:content}</p>\r",
 	  "          <center>",
 	  "          <p><strong>The End.</strong></p>",
