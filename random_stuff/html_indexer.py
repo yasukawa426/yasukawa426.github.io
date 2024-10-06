@@ -13,7 +13,7 @@ def generate_html_list(path, number=0):
             # Remover "_" and make each word capitalized.
             formated_item = item.replace("_", " ").title()
 
-            html += f"<li>{formated_item}:</li>\n"  # Directory
+            html += f"<li><strong>{formated_item}:</strong></li>\n"  # Directory
 
             results = generate_html_list(
                 item_path, page_number

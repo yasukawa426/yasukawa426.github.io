@@ -1,61 +1,61 @@
 <p>Number of available pages: 16</p> 
 <ul>
-<li>About Me:</li>
+<li><strong>About Me:</strong></li>
 <ul>
-<li><a href="about_me.html">About Me.html:</a></li>
-<li>Dream Journal:</li>
+<li><a href="./html\about_me\about_me.html">About Me</a></li>
+<li><strong>Dream Journal:</strong></li>
 <ul>
-<li><a href="dream_journal.html">Dream Journal.html:</a></li>
-<li>Dreams:</li>
+<li><a href="./html\about_me\dream_journal\dream_journal.html">Dream Journal</a></li>
+<li><strong>Dreams:</strong></li>
 <ul>
-<li>092024:</li>
+<li><strong>092024:</strong></li>
 <ul>
-<li><a href="weird_girl_dream.html">Weird Girl Dream.html:</a></li>
+<li><a href="./html\about_me\dream_journal\dreams\092024\weird_girl_dream.html">Weird Girl Dream</a></li>
 </ul>
-<li>102024:</li>
+<li><strong>102024:</strong></li>
 <ul>
-<li><a href="weird_cabin_dream.html">Weird Cabin Dream.html:</a></li>
-</ul>
-</ul>
-</ul>
-<li>Hobbies:</li>
-<ul>
-<li>Anime:</li>
-<ul>
-<li><a href="anime.html">Anime.html:</a></li>
-</ul>
-<li>Gaming:</li>
-<ul>
-<li><a href="gaming.html">Gaming.html:</a></li>
-<li>My Games:</li>
-<ul>
-<li><a href="my_games.html">My Games.html:</a></li>
-<li>Pong Clone:</li>
-<ul>
-<li><a href="index.html">Index.html:</a></li>
-</ul>
-<li>Snake:</li>
-<ul>
-<li><a href="Snake.html">Snake.html:</a></li>
+<li><a href="./html\about_me\dream_journal\dreams\102024\weird_cabin_dream.html">Weird Cabin Dream</a></li>
 </ul>
 </ul>
 </ul>
-<li><a href="hobbies.html">hobbies.html:</a></li>
-</ul>
-<li>Thoughts:</li>
+<li><strong>Hobbies:</strong></li>
 <ul>
-<li><a href="thoughts.html">Thoughts.html:</a></li>
-</ul>
-</ul>
-<li>Random Pages:</li>
+<li><strong>Anime:</strong></li>
 <ul>
-<li><a href="404.html">404.html:</a></li>
-<li><a href="changelog.html">Changelog.html:</a></li>
-<li><a href="roadmap.html">Roadmap.html:</a></li>
+<li><a href="./html\about_me\hobbies\anime\anime.html">Anime</a></li>
 </ul>
-<li>Templates:</li>
+<li><strong>Gaming:</strong></li>
 <ul>
-<li><a href="dream_template.html">Dream Template.html:</a></li>
-<li><a href="template.html">Template.html:</a></li>
+<li><a href="./html\about_me\hobbies\gaming\gaming.html">Gaming</a></li>
+<li><strong>My Games:</strong></li>
+<ul>
+<li><a href="./html\about_me\hobbies\gaming\my_games\my_games.html">My Games</a></li>
+<li><strong>Pong Clone:</strong></li>
+<ul>
+<li><a href="./html\about_me\hobbies\gaming\my_games\pong_clone\index.html">Index</a></li>
+</ul>
+<li><strong>Snake:</strong></li>
+<ul>
+<li><a href="./html\about_me\hobbies\gaming\my_games\snake\Snake.html">Snake</a></li>
+</ul>
+</ul>
+</ul>
+<li><a href="./html\about_me\hobbies\hobbies.html">Hobbies</a></li>
+</ul>
+<li><strong>Thoughts:</strong></li>
+<ul>
+<li><a href="./html\about_me\thoughts\thoughts.html">Thoughts</a></li>
+</ul>
+</ul>
+<li><strong>Random Pages:</strong></li>
+<ul>
+<li><a href="./html\random_pages\404.html">404</a></li>
+<li><a href="./html\random_pages\changelog.html">Changelog</a></li>
+<li><a href="./html\random_pages\roadmap.html">Roadmap</a></li>
+</ul>
+<li><strong>Templates:</strong></li>
+<ul>
+<li><a href="./html\templates\dream_template.html">Dream Template</a></li>
+<li><a href="./html\templates\template.html">Template</a></li>
 </ul>
 </ul>
