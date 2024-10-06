@@ -84,12 +84,12 @@
       "          <h1>${1:dream name}</h1>\r",
       "          <p><strong>Score: ${3:score}/10</strong></p>",
       "          <p><strong>Date: ${4:day}/${5:month}/${6:year}</strong></p>",
-	  "          <hr>",
+      "          <hr>",
       "          <p>${0:content}</p>\r",
-	  "          <center>",
-	  "          <p><strong>The End.</strong></p>",
-	  "          </center>",
-	  "          <h1>Review</h1>",
+      "          <center>",
+      "          <p><strong>The End.</strong></p>",
+      "          </center>",
+      "          <h1>Review</h1>",
       "        </main>\r",
       "      </div>\r",
       "    </div>\r",
@@ -97,5 +97,16 @@
       "</html>"
     ],
     "description": "Creates a new dream html page."
+  },
+  "Dream Entry": {
+    "prefix": ["entry", "new dream entry"],
+    "body": [
+      "<li>",
+      "   <a href=\"${1:link}\"",
+      "   >${2: Title}:</a>",
+      "   ${3: day}/${4: month}/${5: year}, ${score}/10 - ${6:description}",
+      "</li>"
+    ],
+    "description": "Creates a new dream entry for the Dream Journal."
   }
 }
