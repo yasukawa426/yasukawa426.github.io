@@ -43,7 +43,8 @@
       "  </body>\r",
       "</html>"
     ],
-    "description": "Creates a new html page."
+    "description": "Creates a new html page.",
+	"scope": "html",
   },
   "Dream Template": {
     "prefix": ["dream template", "new dream page"],
@@ -96,7 +97,8 @@
       "  </body>\r",
       "</html>"
     ],
-    "description": "Creates a new dream html page."
+    "description": "Creates a new dream html page.",
+	"scope": "html",
   },
   "Dream Entry": {
     "prefix": ["entry", "new dream entry"],
@@ -107,6 +109,7 @@
       "   ${3: day}/${4: month}/${5: year}, ${score}/10 - ${6:description}",
       "</li>"
     ],
-    "description": "Creates a new dream entry for the Dream Journal."
+    "description": "Creates a new dream entry for the Dream Journal.",
+	"scope": "html",
   }
 }
