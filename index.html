@@ -88,11 +88,22 @@
               to add.
             </li>
           </ul>
+          <h1>All Pages</h1>
+          <div id="pages-index"><p>Loading...</p></div>
         </main>
       </div>
       <footer id="footer">
         <a href="mailto:sadlilboy32@outlook.com">Contact me.</a>
       </footer>
     </div>
+
+    <script>
+      // load the index from file and then add on the page
+      fetch("indexes.txt").then((result) => {
+        result.text().then((body) => {
+          document.getElementById("pages-index").innerHTML = body;
+        });
+      });
+    </script>
   </body>
 </html>
