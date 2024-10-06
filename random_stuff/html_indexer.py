@@ -1,6 +1,4 @@
 import os
-import json
-
 
 # Recursively generate HTML list items for directory structure.
 # path is the path we are listing. you should call using the root you want to analyze.
