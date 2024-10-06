@@ -1,0 +1,61 @@
+<p>Number of available pages: 16</p> 
+<ul>
+<li>About Me:</li>
+<ul>
+<li><a href="about_me.html">About Me.html:</a></li>
+<li>Dream Journal:</li>
+<ul>
+<li><a href="dream_journal.html">Dream Journal.html:</a></li>
+<li>Dreams:</li>
+<ul>
+<li>092024:</li>
+<ul>
+<li><a href="weird_girl_dream.html">Weird Girl Dream.html:</a></li>
+</ul>
+<li>102024:</li>
+<ul>
+<li><a href="weird_cabin_dream.html">Weird Cabin Dream.html:</a></li>
+</ul>
+</ul>
+</ul>
+<li>Hobbies:</li>
+<ul>
+<li>Anime:</li>
+<ul>
+<li><a href="anime.html">Anime.html:</a></li>
+</ul>
+<li>Gaming:</li>
+<ul>
+<li><a href="gaming.html">Gaming.html:</a></li>
+<li>My Games:</li>
+<ul>
+<li><a href="my_games.html">My Games.html:</a></li>
+<li>Pong Clone:</li>
+<ul>
+<li><a href="index.html">Index.html:</a></li>
+</ul>
+<li>Snake:</li>
+<ul>
+<li><a href="Snake.html">Snake.html:</a></li>
+</ul>
+</ul>
+</ul>
+<li><a href="hobbies.html">hobbies.html:</a></li>
+</ul>
+<li>Thoughts:</li>
+<ul>
+<li><a href="thoughts.html">Thoughts.html:</a></li>
+</ul>
+</ul>
+<li>Random Pages:</li>
+<ul>
+<li><a href="404.html">404.html:</a></li>
+<li><a href="changelog.html">Changelog.html:</a></li>
+<li><a href="roadmap.html">Roadmap.html:</a></li>
+</ul>
+<li>Templates:</li>
+<ul>
+<li><a href="dream_template.html">Dream Template.html:</a></li>
+<li><a href="template.html">Template.html:</a></li>
+</ul>
+</ul>
