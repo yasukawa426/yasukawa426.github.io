@@ -1,55 +1,58 @@
 import os
-# I'm gonna make a dictionari to represent the folders, if it doesnt end in .*, its a folder and I should look for the children:
+import json
 
-# tree = {
-#     "title": "root",
-#     "child": [
-#         {
-#             "title": "html",
-#             "child": [
-#                 {"title": "about_me"},
-#                 {
-#                     "title": "dream_journal",
-#                     "child": [
-#                         {
-#                             "title": "dream_journal.html",
-#                             "child": "",
-#                         },
-#                         {
-#                             "title:": "dreams",
-#                             "child": ["..."],
-#                         },
-#                     ],
-#                 },
-#             ],
-#         },
-#         {
-#             "title": "random_pages",
-#             "child": "...",
-#         },
-#         {
-#             "title": "templates",
-#             "child": "...",
-#         },
-#     ],
-# }
+
+# Recursively generate HTML list items for directory structure.
+# path is the path we are listing. you should call using the root you want to analyze.
+# number is the number of pages (.html) we currently are counting. Used when being called recursevely.
+def generate_html_list(path, number=0):
+    page_number = number
+
+    html = "<ul>\n"
+    for item in sorted(os.listdir(path)):
+        item_path = os.path.join(path, item)
+        if os.path.isdir(item_path):
+            # Remover "_" and make each word capitalized.
+            formated_item = item.replace("_", " ").title()
+
+            html += f"<li>{formated_item}:</li>\n"  # Directory
+
+            results = generate_html_list(
+                item_path, page_number
+            )  # Get the result from calling the method
+
+            # update html
+            html += results[0]
+
+            # update number of pages.
+            page_number = results[1]
+        else:
+            # is a html file
+            if item.endswith(".html"):
+                # so we increase the number of pages.
+                page_number += 1
+
+                # Remove "_", make each word capitalized, and turns ".Html" into ".html"
+                formated_item = item.replace("_", " ").title().replace("H", "h")
+
+                html += f'<li><a href="{os.path.relpath(item_path, path)}">{formated_item}:</a></li>\n'  # File
+    html += "</ul>\n"
+
+    # returns a tuple with the html and number of pages
+    return html, page_number
 
 
 HTML_PATH = "./html"
 
-# def listAllSubDirs()
+html, pages = generate_html_list(HTML_PATH)
+html = f"<p>Number of available pages: {pages}</p> \n{html}"
+
+print(f"Pages: {pages}")
 
 
-# Get a list of folders names string  (['dream_journal', 'random_pages', 'templates'])
-# folders = os.walk(HTML_PATH)
-i = 0
-for root, dirs, files in os.walk(HTML_PATH):
-    print("Iteration " + str(i) + ":")
-    print("root:" + str(root))
-    print("dir: " + str(dirs))
-    print("file:" + str(files))
-    i += 1
-
+file = open("indexes.txt", "w")
+file.write(html)
+file.close()
 
 # for path in folders:
 #     # if is a folder
