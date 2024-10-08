@@ -100,9 +100,13 @@
     <script>
       // load the index from file and then add on the page
       fetch("indexes.txt").then((result) => {
-        result.text().then((body) => {
-          document.getElementById("pages-index").innerHTML = body;
-        });
+        if (result.status == 200) {
+          result.text().then((body) => {
+            document.getElementById("pages-index").innerHTML = body;
+          });
+        } else{
+          document.getElementById("pages-index").innerHTML = "<p>Failed to load index, sorry..."
+        }
       });
     </script>
   </body>
