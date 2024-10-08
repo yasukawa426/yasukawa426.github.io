@@ -40,7 +40,7 @@ jobs:
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: action_updated_html_indexes
+          branch: main
 
   deploy:
     needs: pages-directory-indexing
