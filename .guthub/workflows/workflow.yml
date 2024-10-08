@@ -1,0 +1,62 @@
+- name: update-indexes
+
+  on: [push]
+
+  jobs:
+    pages-directory-indexing:
+      runs-on: ubuntu-latest
+      name: Directory Index Updating
+      steps:
+
+        # Checkout repo
+        - name: Checkout Repository
+          uses: actions/checkout@v3
+
+        # Install python
+        - name: setup python
+          uses: actions/setup-python@v4
+          with:
+            python-version: "3.10" # install the python version needed
+        
+        # We could install packages if needed.
+        # - name: install python packages
+        #   run: |
+        #     python -m pip install --upgrade pip
+        #     pip install -r requirements.txt
+
+        # running the script
+        - name: run python indexer
+          run: python random_stuff/html_indexer.py
+
+        # commiting changes (--allow-empty incase there is no changes)
+        - name: commit changes
+          run: |
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add -A
+            git diff-index --quiet HEAD || (git commit -a -m "Updated index" --allow-empty)
+
+        # pushing - uses auto generated token.
+        - name: push changes
+          uses: ad-m/github-push-action@v0.6.0
+          with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            branch: action_updated_html_indexes 
+
+    deploy:
+      needs: pages-directory-listing
+      permissions:
+        pages: write # to deploy to Pages
+        id-token: write # to verify the deployment originates from an appropriate source
+
+      # Deploy to the github-pages environment
+      environment:
+        name: github-pages
+        url: ${{ steps.deployment.outputs.page_url }}
+
+        # Specify runner + deployment step
+        runs-on: ubuntu-latest
+        steps:
+          - name: Deploy to GitHub Pages
+            id: deployment
+            uses: actions/deploy-pages@v1
