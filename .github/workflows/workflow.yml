@@ -33,7 +33,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "Updated index" --allow-empty)
+          git diff-index --quiet HEAD || (git commit -a -m "Updated index - Action" --allow-empty)
 
       # pushing - uses auto generated token.
       - name: Push changes
@@ -41,21 +41,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
-
-  deploy:
-    needs: pages-directory-indexing
-    permissions:
-      pages: write # to deploy to Pages
-      id-token: write # to verify the deployment originates from an appropriate source
-
-    # Deploy to the github-pages environment
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    # Specify runner + deployment step
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
