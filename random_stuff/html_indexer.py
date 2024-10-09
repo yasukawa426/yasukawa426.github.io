@@ -1,4 +1,6 @@
 import os
+import datetime
+import sys
 
 # Recursively generate HTML list items for directory structure.
 # path is the path we are listing. you should call using the root you want to analyze.
@@ -40,23 +42,24 @@ def generate_html_list(path, number=0):
     return html, page_number
 
 
-HTML_PATH = "./html"
+if __name__ == "__main__":
+    start_time = datetime.datetime.now()
 
-html, pages = generate_html_list(HTML_PATH)
-html = f"<p>Number of available pages: {pages}</p> \n{html}"
+    HTML_PATH = "./html"
 
-print(f"Pages: {pages}")
+    # incresing recursio limit
+    # sys.setrecursionlimit(5000)
+    
+    html, pages = generate_html_list(HTML_PATH)
+    html = f"<p>Number of available pages: {pages}</p> \n{html}"
 
+    print(f"Pages: {pages}")
 
-file = open("indexes.txt", "w")
-file.write(html)
-file.close()
+    file = open("indexes.txt", "w")
+    file.write(html)
+    file.close()
 
-# for path in folders:
-#     # if is a folder
-#     if not path.endswith(".html"):
-#         print("Is a folder: " + path)
+    end_time = datetime.datetime.now()
+    elapsed_time = end_time - start_time
 
-#     # if is a file
-#     else:
-#         print("Is a file: " + path)
+    print(f"Indexed in: {elapsed_time.total_seconds() * 1000}ms")
