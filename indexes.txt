@@ -32,7 +32,7 @@
 <li><a href="./html/about_me/hobbies/gaming/my_games/my_games.html">My Games</a></li>
 <li><strong>Pong Clone:</strong></li>
 <ul>
-<li><a href="./html/about_me/hobbies/gaming/my_games/pong_clone/index.html">Index</a></li>
+<li><a href="./html/about_me/hobbies/gaming/my_games/pong_clone/pong_clone.html">Pong Clone</a></li>
 </ul>
 <li><strong>Snake:</strong></li>
 <ul>
