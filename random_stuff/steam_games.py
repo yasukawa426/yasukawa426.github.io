@@ -27,7 +27,7 @@ def loadGamesFromApi() -> tuple[int, list[dict]]:
     #         "playtime" : Hours
     #     },
     # ]
-    formated_games: list[dict] = [{}]
+    formated_games: list[dict] = []
 
     for game in owned_games:
         formated_games.append(
