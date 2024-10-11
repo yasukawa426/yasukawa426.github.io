@@ -5,8 +5,8 @@ import datetime
 
 
 # Load my steam owned games directly from their api.
-# Return as tuple : (games count, list[{name, playtime}])
-def loadGamesFromApi() -> tuple[int, list[dict]]:
+# Return as tuple : (games count, total playtime, list[{name, playtime}])
+def loadGamesFromApi() -> tuple[int, int, list[dict]]:
     """Load all my owned steam games directly from steam api. Needs the file `steam_secrets.py` to get all the secrets.
 
     Returns:
@@ -30,6 +30,8 @@ def loadGamesFromApi() -> tuple[int, list[dict]]:
     # ]
     formated_games: list[dict] = []
 
+    total_playtime = 0
+
     for game in owned_games:
         formated_games.append(
             {
@@ -39,7 +41,11 @@ def loadGamesFromApi() -> tuple[int, list[dict]]:
             }
         )
 
-    return game_count, formated_games
+        total_playtime += game["playtime_forever"]
+
+    total_playtime = round(total_playtime / 60, 1)
+
+    return game_count, total_playtime, formated_games
 
 
 # Expects a list of strin
@@ -76,20 +82,22 @@ if __name__ == "__main__":
     date_before = datetime.datetime.now()
 
     # load the games
-    games_number, games = loadGamesFromApi()
+    games_number, total_playtime, games = loadGamesFromApi()
 
     # sort by their name
     games.sort(key=sortGamesListByName)
 
     # generate the html
     html = formatGameListToHtml(games)
+    #add total games and total playtime.
+    final_html = f"<p>Owned Games: <strong>{games_number}</strong>.<p>Total Playtime: <strong>{total_playtime}</strong> hours.<ul>{html}</ul>"
 
     # write the html to file
     file = open(HTML_PATH, "w", encoding="utf-8")
-    file.write(html)
+    file.write(final_html)
     file.close()
 
     date_after = datetime.datetime.now()
 
-    print(html)
+    print(final_html)
     print(f"Finished in: {(date_after - date_before).total_seconds() * 1000}ms")

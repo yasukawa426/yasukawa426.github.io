@@ -47,14 +47,13 @@
             </ul>
           </div>
 
-          <div id="owned-games-div">
+          <div id="owned-games">
             <h1>All My Steam Games</h1>
             <details>
               <summary>
-                Click <strong>here</strong> to see all my unsorted steam games
-                as of September 26, 2024:
+                Click <strong>here</strong> to see all my steam games:
               </summary>
-              <ul id="owned-games"></ul>
+              <div id="owned-games-list"></div>
             </details>
           </div>
 
@@ -137,10 +136,10 @@
       fetch("games_list.txt").then((result) => {
         if (result.status == 200) {
           result.text().then((body) => {
-            document.getElementById("owned-games").innerHTML = body;
+            document.getElementById("owned-games-list").innerHTML = body;
           });
         } else {
-          document.getElementById("owned-games").innerHTML =
+          document.getElementById("owned-games-list").innerHTML =
             "<p>Failed to load games, sorry...";
         }
       });

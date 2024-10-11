@@ -1,4 +1,4 @@
-<li>AION Free-to-Play - 2.3h played.</li>
+<p>Owned Games: <strong>349</strong>.<p>Total Playtime: <strong>2781.1</strong> hours.<ul><li>AION Free-to-Play - 2.3h played.</li>
 <li>ANIME STANDING - 0.6h played.</li>
 <li>APB Reloaded - 5.1h played.</li>
 <li>ARK: Survival Evolved - 0.5h played.</li>
@@ -347,3 +347,4 @@
 <li>Yu-Gi-Oh! Duel Links - 0.5h played.</li>
 <li>tModLoader - 22.2h played.</li>
 <li>welcome to heaven - 0.2h played.</li>
+</ul>
