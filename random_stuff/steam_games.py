@@ -1,6 +1,7 @@
 # This script will load all my steam games and then format it into html <li> tags
 import requests
 import steam_secrets
+import datetime
 
 
 # Load my steam owned games directly from their api.
@@ -70,15 +71,25 @@ def sortGamesListByName(game: list[dict]):
 
 
 if __name__ == "__main__":
+    HTML_PATH = "./html/about_me/hobbies/gaming/games_list.txt"
+
+    date_before = datetime.datetime.now()
+
     # load the games
     games_number, games = loadGamesFromApi()
-    
+
     # sort by their name
     games.sort(key=sortGamesListByName)
-    
+
     # generate the html
     html = formatGameListToHtml(games)
-    
+
+    # write the html to file
+    file = open(HTML_PATH, "w", encoding="utf-8")
+    file.write(html)
+    file.close()
+
+    date_after = datetime.datetime.now()
+
     print(html)
-    
-    
+    print(f"Finished in: {(date_after - date_before).total_seconds() * 1000}ms")
