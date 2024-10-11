@@ -65,19 +65,20 @@ def formatGameListToHtml(gamesList: list[dict]) -> str:
     return html
 
 
+def sortGamesListByName(game: list[dict]):
+    return game["name"]
+
+
 if __name__ == "__main__":
-    pass
-    # games = open("games.txt", "r")
-    # gamesString = games.read()
-    # games.close()
-
-    # gamesList = txtToList(gamesString)
-
-    # print(gamesList)
-    # gamesHtml = listToHtmlLi(gamesList)
-
-    # print(gamesHtml)
-
-    # f = open("games_list.txt", "w")
-    # f.write(gamesHtml)
-    # f.close()
+    # load the games
+    games_number, games = loadGamesFromApi()
+    
+    # sort by their name
+    games.sort(key=sortGamesListByName)
+    
+    # generate the html
+    html = formatGameListToHtml(games)
+    
+    print(html)
+    
+    
