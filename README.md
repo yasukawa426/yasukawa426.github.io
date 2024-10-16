@@ -12,7 +12,7 @@ Things that I am using on it:
 Tech stack:
 Just plain old html, css and javascript. I also wrote some python scripts for indexing and to load my steam games list, but that's it. I try to avoid using any framework and libraries, being free of them up until now (16/10/2024). My IDE is VsCode with tons of extensions. The site is hosted using GitHub Pages. Maybe I will change it in the future, but idk.
 
-I took some inspiration from both these sites: [Ulillillia City](https://web.archive.org/web/20160801020225/http://www.ulillillia.us/mainindex.shtml) and (sadgrl.online)[https://goblin-heart.net/sadgrl/]- as you can see in [cool stuff.txt](https://github.com/yasukawa426/yasukawa426.github.io/blob/main/cool%20stuff.txt)
+I took some inspiration from both these sites: [Ulillillia City](https://web.archive.org/web/20160801020225/http://www.ulillillia.us/mainindex.shtml) and [sadgrl.online](https://goblin-heart.net/sadgrl/)- as you can see in [cool stuff.txt](https://github.com/yasukawa426/yasukawa426.github.io/blob/main/cool%20stuff.txt)
 
 I guess that's it, enjoy.
 <br>
