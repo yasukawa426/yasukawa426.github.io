@@ -103,7 +103,7 @@
   "Dream Entry": {
     "prefix": ["entry", "new dream entry"],
     "body": [
-      "<li>",
+      "<li class='dream'>",
       "   <a href=\"${1:link}\"",
       "   >${2: Title}:</a>",
       "   ${3: day}/${4: month}/${5: year}, ${score}/10 - ${6:description}",
