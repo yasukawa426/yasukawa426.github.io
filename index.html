@@ -90,6 +90,17 @@
           </ul>
           <h1>All Pages</h1>
           <div id="pages-index"><p>Loading...</p></div>
+
+          <h1>Comments</h1>
+          <script
+            src="https://utteranc.es/client.js"
+            repo="yasukawa426/yasukawa426.github.io"
+            issue-term="title"
+            label="Comment"
+            theme="icy-dark"
+            crossorigin="anonymous"
+            async
+          ></script>
         </main>
       </div>
       <footer id="footer">
@@ -104,8 +115,9 @@
           result.text().then((body) => {
             document.getElementById("pages-index").innerHTML = body;
           });
-        } else{
-          document.getElementById("pages-index").innerHTML = "<p>Failed to load index, sorry..."
+        } else {
+          document.getElementById("pages-index").innerHTML =
+            "<p>Failed to load index, sorry...";
         }
       });
     </script>
