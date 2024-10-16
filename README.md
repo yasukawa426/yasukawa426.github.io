@@ -3,9 +3,10 @@ This is just a personal site where I share stuff about me, including but not lim
 <br>
 <br>
 Things that I am using on it:
-  - Google Analytics.
-  - Github Actions to run some scripts I wrote in python whenever I push to this repo.
-  - I used Godot to make some games that I have on the site.
+
+- [Google Analytics](https://developers.google.com/analytics)
+- [Github Actions](https://github.com/features/actions) to run some scripts I wrote in python whenever I push to this repo.
+- I used [Godot](https://godotengine.org/) to make some games that I have on the site.
 
 Tech stack:
   Just plain old html, css and javascript. I also wrote some python scripts for indexing and to load my steam games list, but that's it. I try to avoid using any framework and libraries, being free of them up until now (16/10/2024). My IDE is VsCode with tons of extensions. The site is hosted using GitHub Pages. Maybe I will change it in the future, but idk.
