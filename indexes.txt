@@ -1,4 +1,4 @@
-<p>Number of available pages: 16</p> 
+<p>Number of available pages: 17</p> 
 <ul>
 <li><strong>About Me:</strong></li>
 <ul>
@@ -44,6 +44,10 @@
 </ul>
 <li><strong>Thoughts:</strong></li>
 <ul>
+<li><strong>Collection:</strong></li>
+<ul>
+<li><a href="./html/about_me/thoughts/collection/site_reflections.html">Site Reflections</a></li>
+</ul>
 <li><a href="./html/about_me/thoughts/thoughts.html">Thoughts</a></li>
 </ul>
 </ul>
