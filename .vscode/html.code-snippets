@@ -158,5 +158,24 @@
     ],
     "description": "Creates a new html page.",
     "scope": "html"
+  },
+  "Changelog Entry": {
+    "prefix": ["entry", "new changelog entry"],
+    "body": [
+      "<div class='date-container'>",
+      "<div class='change-header'>",
+      "<h2>$CURRENT_DATE/$CURRENT_MONTH/$CURRENT_YEAR</h2>",
+      "<p>${1: Summary}</p>",
+      "</div>",
+      "<ul>",
+      "<li>",
+      "<strong>${2: Change Title}:</strong>",
+      "<ul>",
+      "<li>${3: Change}</li>",
+      "</ul>",
+      "</li>",
+      "</ul>",
+      "</div>"
+    ]
   }
 }
