@@ -177,6 +177,8 @@
       "</li>",
       "</ul>",
       "</div>"
-    ]
+    ],
+    "description": "Creates a new changelog entry with the current date.",
+    "scope": "html"
   }
 }
