@@ -162,6 +162,7 @@
   "Changelog Entry": {
     "prefix": ["entry", "new changelog entry"],
     "body": [
+      "<!-- --------------------$CURRENT_DATE/$CURRENT_MONTH/$CURRENT_YEAR------------------------------ -->",
       "<div class='date-container'>",
       "<div class='change-header'>",
       "<h2>$CURRENT_DATE/$CURRENT_MONTH/$CURRENT_YEAR</h2>",
