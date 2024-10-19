@@ -3,6 +3,7 @@
   --body-bg-image: url(resources/background_images/stars.gif);
   --content: #43256e;
   --text-color: #fceaff;
+
   /* colors */
 }
 
@@ -174,4 +175,31 @@ p.image-description {
   background-color: white;
   color: black;
   padding: 5px;
+}
+
+/* Loader progress indicator */
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader {
+  --animation-thickness: 13px;
+  --size: 70px;
+
+  border: var(--animation-thickness) solid #000000;
+  border-radius: 50%;
+  border-top: var(--animation-thickness) solid #43256e;
+  width: var(--size);
+  height: var(--size);
+
+  animation-name: spin;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
