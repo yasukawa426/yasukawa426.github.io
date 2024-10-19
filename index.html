@@ -63,6 +63,7 @@
               <a href="/html/random_pages/changelog.html">changelog</a> page.
             </p>
           </div>
+
           <div id="navigation">
             <h1>Navigation</h1>
             This section will list all the main links:
@@ -93,9 +94,21 @@
               </li>
             </ul>
           </div>
+
           <div id="pages">
             <h1>All Pages</h1>
-            <div id="pages-index"><p>Loading...</p></div>
+            <div
+              id="loader-container"
+              style="
+                height: 300px;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+              "
+            >
+              <div class="loader"></div>
+            </div>
+            <div id="pages-index"></div>
           </div>
 
           <div id="comments">
@@ -118,6 +131,8 @@
     </div>
 
     <script>
+      loader = document.getElementById("loader-container")
+
       // load the index from file and then add on the page
       fetch("indexes.txt").then((result) => {
         if (result.status == 200) {
@@ -128,6 +143,8 @@
           document.getElementById("pages-index").innerHTML =
             "<p>Failed to load index, sorry...";
         }
+
+        loader.remove()
       });
     </script>
   </body>
