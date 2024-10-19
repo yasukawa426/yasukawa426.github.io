@@ -7,6 +7,10 @@
   /* colors */
 }
 
+div#headerArea {
+  height: 40px;
+}
+
 * {
   box-sizing: border-box;
 }
