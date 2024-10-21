@@ -1,7 +1,5 @@
 import os
 import datetime
-import sys
-
 
 # Recursively generate HTML list items for directory structure.
 # path is the path we are listing. you should call using the root you want to analyze.
