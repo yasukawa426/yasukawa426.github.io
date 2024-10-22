@@ -131,20 +131,29 @@
     </div>
 
     <script>
-      loader = document.getElementById("loader-container");
+      // Fetches the html indexing from file and then displays on the html.
+      async function fetchAndFillIndexes(indexesElement) {
+        // load the index from file and then add on the page
+        result = await fetch("indexes.txt");
 
-      // load the index from file and then add on the page
-      fetch("indexes.txt").then((result) => {
         if (result.status == 200) {
           result.text().then((body) => {
-            document.getElementById("pages-index").innerHTML = body;
+            indexesElement.innerHTML = body;
           });
         } else {
-          document.getElementById("pages-index").innerHTML =
-            "<p>Failed to load index, sorry...</p>";
+          indexesElement.innerHTML = "<p>Failed to load index, sorry...</p>";
         }
 
-        loader.remove()
+        console.log("Done fetching indexes...");
+      }
+      console.log("Calling indexes..");
+
+      fetchAndFillIndexes(document.getElementById("pages-index")).then(() => {
+        console.log("Done calling indexes!");
+
+        // Waits for the indexes fetching to be done and then removes the loader indicator.
+        indexLoaderIndicator = document.getElementById("loader-container");
+        indexLoaderIndicator.remove();
       });
     </script>
   </body>
