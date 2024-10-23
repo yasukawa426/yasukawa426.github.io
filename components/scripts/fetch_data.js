@@ -13,7 +13,7 @@ async function fetchAndFillIndexes(indexesElement) {
   }
 }
 
-// TODO: Fix bug not listing all edited files.
+
 // TODO: Fix not being able to load the commits from sessionStorage in the first time loading commits (from github).
 // Fetches latest 5 commits.
 // If succesful, save to session storage at "commits". ["latest commit message - files: ...", "second latest commit message", ...].
@@ -49,9 +49,9 @@ async function fetchCommits() {
             // Split its path and add to the string
             if (commitJson.files[i].filename.includes("/")) {
               let fileName = commitJson.files[i].filename.split("/");
-              editedFiles = `${fileName[fileName.length - 1]}; `;
+              editedFiles = `${editedFiles}${fileName[fileName.length - 1]}; `;
             } else {
-              editedFiles = `${commitJson.files[i].filename}; `;
+              editedFiles = `${editedFiles}${commitJson.files[i].filename}; `;
             }
           }
 
