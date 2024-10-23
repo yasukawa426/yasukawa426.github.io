@@ -1,3 +1,4 @@
+//TODO: Move any html to .html file using this function.
 // Fetches the html indexing from file and then displays on the html.
 async function fetchAndFillIndexes(indexesElement) {
   // load the index from file and then add on the page
