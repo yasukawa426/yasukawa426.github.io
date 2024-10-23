@@ -1,11 +1,9 @@
 //TODO: Move any html to .html file using this function.
-// TODO: Fix bug not listing all edited files.
-// TODO: Fix not being able to load the commits from sessionStorage in the first time loading commits (from github).
 // Fetches the html indexing from file and then displays on the html.
 async function fetchAndFillIndexes(indexesElement) {
   // load the index from file and then add on the page
   result = await fetch("indexes.txt");
-
+  
   if (result.status == 200) {
     result.text().then((body) => {
       indexesElement.innerHTML = body;
@@ -15,6 +13,8 @@ async function fetchAndFillIndexes(indexesElement) {
   }
 }
 
+// TODO: Fix bug not listing all edited files.
+// TODO: Fix not being able to load the commits from sessionStorage in the first time loading commits (from github).
 // Fetches latest 5 commits.
 // If succesful, save to session storage at "commits". ["latest commit message - files: ...", "second latest commit message", ...].
 // If failed to load commits, throws an error.
