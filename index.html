@@ -108,8 +108,8 @@
             >
               <div class="loader"></div>
             </div>
-            <div id="pages-index"></div>
             <div id="latest-changes"></div>
+            <div id="pages-index"></div>
           </div>
 
           <div id="comments">
@@ -209,7 +209,10 @@
           commitsHtml = `${commitsHtml} <li>${commits[i]}</li>`;
         }
 
-        commitsHtml = "<ul>" + commitsHtml + "</ul>";
+        commitsHtml =
+          "<p>Latest changes (loaded from <a href='https://github.com/yasukawa426/yasukawa426.github.io'>GitHub</a>):</p><ul>" +
+          commitsHtml +
+          "</ul>";
 
         element.innerHTML = commitsHtml;
       }
