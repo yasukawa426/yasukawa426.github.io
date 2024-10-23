@@ -3,7 +3,7 @@
 async function fetchAndFillIndexes(indexesElement) {
   // load the index from file and then add on the page
   result = await fetch("indexes.txt");
-  
+
   if (result.status == 200) {
     result.text().then((body) => {
       indexesElement.innerHTML = body;
@@ -12,7 +12,6 @@ async function fetchAndFillIndexes(indexesElement) {
     indexesElement.innerHTML = "<p>Failed to load index, sorry...</p>";
   }
 }
-
 
 // TODO: Fix not being able to load the commits from sessionStorage in the first time loading commits (from github).
 // Fetches latest 5 commits.
@@ -49,10 +48,12 @@ async function fetchCommits() {
             // Split its path and add to the string
             if (commitJson.files[i].filename.includes("/")) {
               let fileName = commitJson.files[i].filename.split("/");
-              editedFiles = `${editedFiles}${fileName[fileName.length - 1]}; `;
+              editedFiles = `${editedFiles} ${fileName[fileName.length - 1]};`;
             } else {
-              editedFiles = `${editedFiles}${commitJson.files[i].filename}; `;
+              editedFiles = `${editedFiles} ${commitJson.files[i].filename};`;
             }
+
+            editedFiles.trim();
           }
 
           // Then we add the commit with its message and files to the commits array.
