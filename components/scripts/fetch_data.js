@@ -32,48 +32,47 @@ async function fetchCommits() {
     // }
     let commits = [];
 
-    result.json().then(async (body) => {
-      // For the latest 5 commits,
-      for (let i = 0; i < 5; i++) {
-        // Get its message and sha.
-        const message = body[i].commit.message;
-        const ref = body[i].sha;
+    let body = await result.json();
 
-        // fetches the specific commit to get the files edited
-        const result = await fetch(
-          `https://api.github.com/repos/yasukawa426/yasukawa426.github.io/commits/${ref}`
-        );
+    // For the latest 5 commits,
+    for (let i = 0; i < 5; i++) {
+      // Get its message and sha.
+      const message = body[i].commit.message;
+      const ref = body[i].sha;
 
-        if (result.status == 200) {
-          // Success! Lets grab its files now!
-          const commitJson = await result.json();
-          let editedFiles = [];
+      // fetches the specific commit to get the files edited
+      const result = await fetch(
+        `https://api.github.com/repos/yasukawa426/yasukawa426.github.io/commits/${ref}`
+      );
 
-          for (let i = 0; i < commitJson.files.length; i++) {
-            // Split its path and add to the string
-            if (commitJson.files[i].filename.includes("/")) {
-              let fileName = commitJson.files[i].filename.split("/");
+      if (result.status == 200) {
+        // Success! Lets grab its files now!
+        const commitJson = await result.json();
+        let editedFiles = [];
 
-              editedFiles.push(fileName[fileName.length - 1].trim());
-            } else {
-              editedFiles.push(commitJson.files[i].filename.trim());
-            }
+        for (let i = 0; i < commitJson.files.length; i++) {
+          // Split its path and add to the string
+          if (commitJson.files[i].filename.includes("/")) {
+            let fileName = commitJson.files[i].filename.split("/");
+
+            editedFiles.push(fileName[fileName.length - 1].trim());
+          } else {
+            editedFiles.push(commitJson.files[i].filename.trim());
           }
-
-          // Then we add the commit with its message and files to the commits array.
-          commits.push({
-            message: message,
-            files: editedFiles,
-          });
-
-          // commits.push(`${message} - Files: ${editedFiles.trim()}`);
-        } else {
-          throw new Error("Failed to load commits! :(");
         }
 
-        sessionStorage.setItem("commits", JSON.stringify(commits));
+        // Then we add the commit with its message and files to the commits array.
+        commits.push({
+          message: message,
+          files: editedFiles,
+        });
+
+        // commits.push(`${message} - Files: ${editedFiles.trim()}`);
+      } else {
+        throw new Error("Failed to load commits! :(");
       }
-    });
+      sessionStorage.setItem("commits", JSON.stringify(commits));
+    }
   } else {
     throw new Error("Failed to load commits! :(");
   }
