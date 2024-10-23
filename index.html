@@ -158,17 +158,22 @@
       let commitsDiv = document.getElementById("latest-changes");
       let commits;
 
-      // Check if the commits are saved in the sessionStorage, if not, fetch it from github api.
-      if (sessionStorage.getItem("commits")) {
-        commits = sessionStorage.getItem("commits").split(",");
-
-        addCommitsToHtml(commits, commitsDiv);
-      } else {
-        fetchCommits().then(() => {
+      try {
+        // Check if the commits are saved in the sessionStorage, if not, fetch it from github api.
+        if (sessionStorage.getItem("commits")) {
           commits = sessionStorage.getItem("commits").split(",");
 
           addCommitsToHtml(commits, commitsDiv);
-        });
+        } else {
+          fetchCommits().then(() => {
+            commits = sessionStorage.getItem("commits").split(",");
+
+            addCommitsToHtml(commits, commitsDiv);
+          });
+        }
+      } catch (err) {
+        commitsDiv.innerHTML =
+          "<p>Latest changes (loaded from <a href='https://github.com/yasukawa426/yasukawa426.github.io'>GitHub</a>):</p><strong><p>Failed to load commits! Sorry :( </p></strong>";
       }
     </script>
   </body>
