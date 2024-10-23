@@ -202,9 +202,7 @@
       }
 
       // Adds the commits into the html
-      function addCommitsToHtml(commits) {
-        let div = document.getElementById("latest-changes");
-
+      function addCommitsToHtml(commits, element) {
         let commitsHtml = "";
 
         for (let i = 0; i < commits.length; i++) {
@@ -213,7 +211,7 @@
 
         commitsHtml = "<ul>" + commitsHtml + "</ul>";
 
-        div.innerHTML = commitsHtml;
+        element.innerHTML = commitsHtml;
       }
 
       fetchAndFillIndexes(document.getElementById("pages-index")).then(() => {
@@ -222,17 +220,19 @@
         indexLoaderIndicator.remove();
       });
 
+      let commitsDiv = document.getElementById("latest-changes");
       let commits;
+
       // Check if the commits are saved in the sessionStorage, if not, fetch it from github api.
       if (sessionStorage.getItem("commits")) {
         commits = sessionStorage.getItem("commits").split(",");
 
-        addCommitsToHtml(commits);
+        addCommitsToHtml(commits, commitsDiv);
       } else {
         fetchCommits().then(() => {
           commits = sessionStorage.getItem("commits").split(",");
 
-          addCommitsToHtml(commits);
+          addCommitsToHtml(commits, commitsDiv);
         });
       }
     </script>
