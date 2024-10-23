@@ -6,7 +6,8 @@ This is just a personal site where I share stuff about me, including but not lim
 Things that I am using on it:
 
 - [Google Analytics](https://developers.google.com/analytics)
-- [Github Actions](https://github.com/features/actions) to run some scripts I wrote in python whenever I push to this repo.
+- [GitHub Actions](https://github.com/features/actions) to run some scripts I wrote in python whenever I push to this repo.
+- [GitHub APIs](https://docs.github.com/) to load commits data.
 - I used [Godot](https://godotengine.org/) to make some games that I have on the site.
 
 Tech stack:
