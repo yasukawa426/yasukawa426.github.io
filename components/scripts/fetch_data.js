@@ -61,19 +61,17 @@ async function fetchCommits() {
           }
 
           // Then we add the commit with its message and files to the commits array.
-          commits.push(
-            JSON.stringify({
-              message: message,
-              files: editedFiles,
-            })
-          );
+          commits.push({
+            message: message,
+            files: editedFiles,
+          });
 
           // commits.push(`${message} - Files: ${editedFiles.trim()}`);
         } else {
           throw new Error("Failed to load commits! :(");
         }
 
-        sessionStorage.setItem("commits", commits);
+        sessionStorage.setItem("commits", JSON.stringify(commits));
       }
     });
   } else {
