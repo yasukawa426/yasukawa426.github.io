@@ -145,8 +145,6 @@
         } else {
           indexesElement.innerHTML = "<p>Failed to load index, sorry...</p>";
         }
-
-        console.log("Done fetching indexes...");
       }
 
       // Fetches latest 5 commits.
@@ -169,8 +167,6 @@
               const message = body[i].commit.message;
               const ref = body[i].sha;
 
-              console.log("Fetching Commit: ", message, ref);
-
               // fetches the specific commit to get the files edited
               const result = await fetch(
                 `https://api.github.com/repos/yasukawa426/yasukawa426.github.io/commits/${ref}`
@@ -180,8 +176,6 @@
                 // Success! Lets grab its files now!
                 const commitJson = await result.json();
                 let editedFiles = "";
-
-                console.log("Done, here are its files: ", commitJson.files);
 
                 for (let i = 0; i < commitJson.files.length; i++) {
                   // Split its path and add to the string
@@ -193,17 +187,12 @@
                   }
                 }
 
-                // console.log("Filesnames:", editedFiles);
-
                 // Then we add the commit with its message and files to the commits array.
-                commits.push(`${message} - Files: ${editedFiles}`);
+                commits.push(`${message} - Files: ${editedFiles.trim()}`);
               } else {
                 throw new Error("Failed to load commits! :(");
               }
 
-              //console.log(`Commit ${i + 1}:`, message, "-", ref);
-
-              console.log("Populet commits array: ", commits);
               sessionStorage.setItem("commits", commits);
             }
           });
@@ -228,8 +217,6 @@
       }
 
       fetchAndFillIndexes(document.getElementById("pages-index")).then(() => {
-        console.log("Done calling indexes!");
-
         // Waits for the indexes fetching to be done and then removes the loader indicator.
         indexLoaderIndicator = document.getElementById("loader-container");
         indexLoaderIndicator.remove();
@@ -238,11 +225,15 @@
       let commits;
       // Check if the commits are saved in the sessionStorage, if not, fetch it from github api.
       if (sessionStorage.getItem("commits")) {
-        commits = sessionStorage.getItem("commits");
+        commits = sessionStorage.getItem("commits").split(",");
 
-        console.log("Commits:", commits);
+        addCommitsToHtml(commits);
       } else {
-        commits = fetchCommits();
+        fetchCommits().then(() => {
+          commits = sessionStorage.getItem("commits").split(",");
+
+          addCommitsToHtml(commits);
+        });
       }
     </script>
   </body>
