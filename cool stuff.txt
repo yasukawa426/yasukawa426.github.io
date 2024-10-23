@@ -4,3 +4,4 @@ https://staticman.net/ - User-generated content to static sites.
 https://disqus.com/ - Comments and discussion. Has a free plan but you are required to add ads to your site.
 https://utteranc.es/ - Comments using github issues.
 https://giscus.app/ - Inpired by utteranc, same, but uses github discussion instead.
+https://docs.github.com/en - Github APIs doc.
