@@ -109,8 +109,8 @@
             >
               <div class="loader"></div>
             </div>
-            <div id="latest-changes"></div>
             <div id="pages-index"></div>
+            <div id="latest-changes"></div>
           </div>
 
           <div id="comments">
@@ -135,18 +135,28 @@
     <script>
       // Adds the commits into the html
       function addCommitsToHtml(commits, element) {
-        let commitsHtml = "";
+        let commitsJson = JSON.parse(commits);
 
-        for (let i = 0; i < commits.length; i++) {
-          commitsHtml = `${commitsHtml} <li>${commits[i]}</li>`;
+        console.log(commitsJson);
+
+        let html = "";
+
+        for (let i = 0; i < commitsJson.length; i++) {
+          commit = commitsJson[i];
+          console.log("Current commit: ", commitsJson[i]);
+
+          let files = "";
+          for (file in commit.files) {
+            files = files + commit.files[file] + "; ";
+          }
+
+          html = `${html}<li><strong>Message:</strong> ${commit.message} <strong>Files:</strong> ${files}</li>`;
         }
 
-        commitsHtml =
-          "<p>Latest changes (loaded from <a href='https://github.com/yasukawa426/yasukawa426.github.io'>GitHub</a>):</p><ul>" +
-          commitsHtml +
+        element.innerHTML =
+          "<p>Latest changes (loaded from <a href='https://github.com/yasukawa426/yasukawa426.github.io'>GitHub</a>):</p>" +
+          html +
           "</ul>";
-
-        element.innerHTML = commitsHtml;
       }
 
       fetchAndFillIndexes(document.getElementById("pages-index")).then(() => {
@@ -161,12 +171,12 @@
       try {
         // Check if the commits are saved in the sessionStorage, if not, fetch it from github api.
         if (sessionStorage.getItem("commits")) {
-          commits = sessionStorage.getItem("commits").split(",");
+          commits = sessionStorage.getItem("commits");
 
           addCommitsToHtml(commits, commitsDiv);
         } else {
           fetchCommits().then(() => {
-            commits = sessionStorage.getItem("commits").split(",");
+            commits = sessionStorage.getItem("commits");
 
             addCommitsToHtml(commits, commitsDiv);
           });
