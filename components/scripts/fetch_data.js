@@ -25,6 +25,11 @@ async function fetchCommits() {
   if (result.status == 200) {
     // Success!
 
+    // List of jsons
+    // {
+    //  message: "",
+    //  files: ["name", "name2", "name3"]
+    // }
     let commits = [];
 
     result.json().then(async (body) => {
@@ -42,22 +47,28 @@ async function fetchCommits() {
         if (result.status == 200) {
           // Success! Lets grab its files now!
           const commitJson = await result.json();
-          let editedFiles = "";
+          let editedFiles = [];
 
           for (let i = 0; i < commitJson.files.length; i++) {
             // Split its path and add to the string
             if (commitJson.files[i].filename.includes("/")) {
               let fileName = commitJson.files[i].filename.split("/");
-              editedFiles = `${editedFiles} ${fileName[fileName.length - 1]};`;
-            } else {
-              editedFiles = `${editedFiles} ${commitJson.files[i].filename};`;
-            }
 
-            editedFiles.trim();
+              editedFiles.push(fileName[fileName.length - 1].trim());
+            } else {
+              editedFiles.push(commitJson.files[i].filename.trim());
+            }
           }
 
           // Then we add the commit with its message and files to the commits array.
-          commits.push(`${message} - Files: ${editedFiles.trim()}`);
+          commits.push(
+            JSON.stringify({
+              message: message,
+              files: editedFiles,
+            })
+          );
+
+          // commits.push(`${message} - Files: ${editedFiles.trim()}`);
         } else {
           throw new Error("Failed to load commits! :(");
         }
