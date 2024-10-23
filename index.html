@@ -109,6 +109,7 @@
               <div class="loader"></div>
             </div>
             <div id="pages-index"></div>
+            <div id="latest-changes"></div>
           </div>
 
           <div id="comments">
@@ -211,7 +212,20 @@
         }
       }
 
-      console.log("Calling indexes..");
+      // Adds the commits into the html
+      function addCommitsToHtml(commits) {
+        let div = document.getElementById("latest-changes");
+
+        let commitsHtml = "";
+
+        for (let i = 0; i < commits.length; i++) {
+          commitsHtml = `${commitsHtml} <li>${commits[i]}</li>`;
+        }
+
+        commitsHtml = "<ul>" + commitsHtml + "</ul>";
+
+        div.innerHTML = commitsHtml;
+      }
 
       fetchAndFillIndexes(document.getElementById("pages-index")).then(() => {
         console.log("Done calling indexes!");
