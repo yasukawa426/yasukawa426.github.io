@@ -13,9 +13,8 @@ async function fetchAndFillIndexes(indexesElement) {
   }
 }
 
-// TODO: Fix not being able to load the commits from sessionStorage in the first time loading commits (from github).
 // Fetches latest 5 commits.
-// If succesful, save to session storage at "commits". ["latest commit message - files: ...", "second latest commit message", ...].
+// If succesful, save to session storage at "commits". {message: "commit message", files: ["name.html", "name2.js", "name3.txt"]}.
 // If failed to load commits, throws an error.
 async function fetchCommits() {
   result = await fetch(
