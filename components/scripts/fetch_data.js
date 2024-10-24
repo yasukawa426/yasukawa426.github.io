@@ -42,7 +42,7 @@ async function fetchCommits() {
         const message = body[i].commit.message;
         const ref = body[i].sha;
 
-        // fetches the specific commit to get the files edited
+        // Fetches the specific commit to get the files that were edited
         const result = await fetch(
           `https://api.github.com/repos/yasukawa426/yasukawa426.github.io/commits/${ref}`
         );
@@ -52,8 +52,9 @@ async function fetchCommits() {
           const commitJson = await result.json();
           let editedFiles = [];
 
+          // For each file in the commit
           for (let i = 0; i < commitJson.files.length; i++) {
-            // Split its path and add to the string
+            // Remove its path and add to the array only the filename.
             if (commitJson.files[i].filename.includes("/")) {
               let fileName = commitJson.files[i].filename.split("/");
 
@@ -69,14 +70,17 @@ async function fetchCommits() {
             files: editedFiles,
           });
         } else {
+          // Failed to fetch commit, throw.
           throw new Error();
         }
         sessionStorage.setItem("commits", JSON.stringify(commits));
       }
     } else {
+      // Failed to load list of commits, throw.
       throw new Error();
     }
   } catch {
+    // Something went wrong, clear commits key and reject the promise.
     sessionStorage.removeItem("commits");
     return Promise.reject("Failed to load commits :(");
   }
