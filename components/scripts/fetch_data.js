@@ -77,6 +77,7 @@ async function fetchCommits() {
       throw new Error();
     }
   } catch {
+    sessionStorage.removeItem("commits");
     return Promise.reject("Failed to load commits :(");
   }
 }
