@@ -137,13 +137,10 @@
       function addCommitsToHtml(commits, element) {
         let commitsJson = JSON.parse(commits);
 
-        console.log(commitsJson);
-
         let html = "";
 
         for (let i = 0; i < commitsJson.length; i++) {
           commit = commitsJson[i];
-          console.log("Current commit: ", commitsJson[i]);
 
           let files = "";
           for (file in commit.files) {
