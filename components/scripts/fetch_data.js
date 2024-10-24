@@ -1,15 +1,17 @@
-//TODO: Move any html to .html file using this function.
-// Fetches the html indexing from file and then displays on the html.
-async function fetchAndFillIndexes(indexesElement) {
+// Fetches the html indexing from file and then returns a string with its content.
+// If failed to load index, return a reject promise.
+async function fetchAndFillIndexes() {
   // load the index from file and then add on the page
-  result = await fetch("indexes.txt");
+  try {
+    result = await fetch("indexes.txt");
 
-  if (result.status == 200) {
-    result.text().then((body) => {
-      indexesElement.innerHTML = body;
-    });
-  } else {
-    indexesElement.innerHTML = "<p>Failed to load index, sorry...</p>";
+    if (result.status == 200) {
+      return await result.text();
+    } else {
+      throw new Error("Failed to load index");
+    }
+  } catch {
+    return Promise.reject("Failed to load index");
   }
 }
 

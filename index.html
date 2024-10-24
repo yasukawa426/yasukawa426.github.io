@@ -156,11 +156,26 @@
           "</ul>";
       }
 
-      fetchAndFillIndexes(document.getElementById("pages-index")).then(() => {
+      // Adds the index into the html
+      function addIndexToHtml() {
+        let indexElement = document.getElementById("pages-index");
+        let indexLoaderIndicator = document.getElementById("loader-container");
+
         // Waits for the indexes fetching to be done and then removes the loader indicator.
-        indexLoaderIndicator = document.getElementById("loader-container");
-        indexLoaderIndicator.remove();
-      });
+
+        fetchAndFillIndexes().then(
+          (index) => {
+            indexElement.innerHTML = index;
+            indexLoaderIndicator.remove();
+          },
+          (err) => {
+            indexElement.innerHTML = "<p>Failed to load index, sorry...</p>";
+            indexLoaderIndicator.remove();
+          }
+        );
+      }
+
+      addIndexToHtml();
 
       let commitsDiv = document.getElementById("latest-changes");
       let commits;
