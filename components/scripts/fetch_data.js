@@ -17,64 +17,66 @@ async function fetchAndFillIndexes() {
 
 // Fetches latest 5 commits.
 // If succesful, save to session storage at "commits". {message: "commit message", files: ["name.html", "name2.js", "name3.txt"]}.
-// If failed to load commits, throws an error.
+// If failed to load commits, return a rejected promise.
 async function fetchCommits() {
-  result = await fetch(
-    "https://api.github.com/repos/yasukawa426/yasukawa426.github.io/commits"
-  );
+  try {
+    result = await fetch(
+      "https://api.github.com/repos/yasukawa426/yasukawa426.github.io/commits"
+    );
 
-  if (result.status == 200) {
-    // Success!
+    if (result.status == 200) {
+      // Success!
 
-    // List of jsons
-    // {
-    //  message: "",
-    //  files: ["name", "name2", "name3"]
-    // }
-    let commits = [];
+      // List of jsons
+      // {
+      //  message: "",
+      //  files: ["name", "name2", "name3"]
+      // }
+      let commits = [];
 
-    let body = await result.json();
+      let body = await result.json();
 
-    // For the latest 5 commits,
-    for (let i = 0; i < 5; i++) {
-      // Get its message and sha.
-      const message = body[i].commit.message;
-      const ref = body[i].sha;
+      // For the latest 5 commits,
+      for (let i = 0; i < 5; i++) {
+        // Get its message and sha.
+        const message = body[i].commit.message;
+        const ref = body[i].sha;
 
-      // fetches the specific commit to get the files edited
-      const result = await fetch(
-        `https://api.github.com/repos/yasukawa426/yasukawa426.github.io/commits/${ref}`
-      );
+        // fetches the specific commit to get the files edited
+        const result = await fetch(
+          `https://api.github.com/repos/yasukawa426/yasukawa426.github.io/commits/${ref}`
+        );
 
-      if (result.status == 200) {
-        // Success! Lets grab its files now!
-        const commitJson = await result.json();
-        let editedFiles = [];
+        if (result.status == 200) {
+          // Success! Lets grab its files now!
+          const commitJson = await result.json();
+          let editedFiles = [];
 
-        for (let i = 0; i < commitJson.files.length; i++) {
-          // Split its path and add to the string
-          if (commitJson.files[i].filename.includes("/")) {
-            let fileName = commitJson.files[i].filename.split("/");
+          for (let i = 0; i < commitJson.files.length; i++) {
+            // Split its path and add to the string
+            if (commitJson.files[i].filename.includes("/")) {
+              let fileName = commitJson.files[i].filename.split("/");
 
-            editedFiles.push(fileName[fileName.length - 1].trim());
-          } else {
-            editedFiles.push(commitJson.files[i].filename.trim());
+              editedFiles.push(fileName[fileName.length - 1].trim());
+            } else {
+              editedFiles.push(commitJson.files[i].filename.trim());
+            }
           }
+
+          // Then we add the commit with its message and files to the commits array.
+          commits.push({
+            message: message,
+            files: editedFiles,
+          });
+        } else {
+          throw new Error();
         }
-
-        // Then we add the commit with its message and files to the commits array.
-        commits.push({
-          message: message,
-          files: editedFiles,
-        });
-
-        // commits.push(`${message} - Files: ${editedFiles.trim()}`);
-      } else {
-        throw new Error("Failed to load commits! :(");
+        sessionStorage.setItem("commits", JSON.stringify(commits));
       }
-      sessionStorage.setItem("commits", JSON.stringify(commits));
+    } else {
+      throw new Error();
     }
-  } else {
-    throw new Error("Failed to load commits! :(");
+  } catch {
+    return Promise.reject("Failed to load commits :(");
   }
 }
