@@ -1,4 +1,4 @@
-<p>Number of available pages: 18</p> 
+<p>Number of available pages: 19</p> 
 <ul>
 <li class='folder'><strong>About Me:</strong></li>
 <ul>
@@ -46,6 +46,7 @@
 <ul>
 <li class='folder'><strong>Collection:</strong></li>
 <ul>
+<li class="file"><a href="./html/about_me/thoughts/collection/broke_up.html">Broke Up</a></li>
 <li class="file"><a href="./html/about_me/thoughts/collection/eating_is_disappointing.html">Eating Is Disappointing</a></li>
 <li class="file"><a href="./html/about_me/thoughts/collection/site_reflections.html">Site Reflections</a></li>
 </ul>
