@@ -3,9 +3,9 @@ name: scripts-exec
 on: [push]
 
 jobs:
-  setup-env:
+  python-scripts-execution:
     runs-on: ubuntu-latest
-    name: Setup Environment
+    name: Python Scripts Execution
     steps:
       # Checkout repo
       - name: Checkout Repository
@@ -23,31 +23,20 @@ jobs:
       #     python -m pip install --upgrade pip
       #     pip install -r requirements.txt
 
+      # setup git
       - name: setup git
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-  # Update steam games
-  steam-games-listing:
-    runs-on: ubuntu-latest
-    name: Steam Games Updating
-    steps:
-      - name: run python game listing
+      # Update steam games
+      - name: Steam Games Updating
         run: python random_stuff/steam_games.py
 
-  pages-directory-indexing:
-    runs-on: ubuntu-latest
-    name: Directory Index Updating
-    steps:
-      # running the script
+      # Update index
       - name: run python indexer
         run: python random_stuff/html_indexer.py
 
-  git-commit-push:
-    runs-on: ubuntu-latest
-    name: Git Commit and Push
-    steps:
       # commiting changes (--allow-empty incase there is no changes)
       - name: commit changes
         run: |
