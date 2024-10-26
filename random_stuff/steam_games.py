@@ -13,11 +13,11 @@ def loadGamesFromApi() -> tuple[int, int, list[dict]]:
         `tuple[int, list[dict]]`: A tuple contaning the number of owned games and a list of dict: `[{name: str, playtime: int,}, ...]`
     """
 
-    CLIENT_ID = os.environ["CLIENT_ID"]
-    STEAM_WEB_API_KEY = os.environ["STEAM_WEB_API_KEY"]
+    STEAM_ID = os.environ["steam_id"]
+    STEAM_WEB_API_KEY = os.environ["steam_web_api_key"]
 
     games_response: dict = requests.get(
-        f"https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/?key={STEAM_WEB_API_KEY}&steamid={CLIENT_ID}&include_appinfo=true&format=json"
+        f"https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/?key={STEAM_WEB_API_KEY}&steamid={STEAM_ID}&include_appinfo=true&format=json"
     ).json()["response"]
 
     # number of owned games.

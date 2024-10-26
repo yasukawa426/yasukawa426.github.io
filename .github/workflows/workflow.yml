@@ -2,12 +2,12 @@ name: scripts-exec
 
 on: [push]
 
-env:
-  steam_id: ${{ secrets.STEAM_ID }}
-  steam_web_api_key: ${{ secrets.STEAM_WEB_API_KEY }}
-
 jobs:
   python-scripts-execution:
+    env:
+      steam_id: ${{ secrets.STEAM_ID }}
+      steam_web_api_key: ${{ secrets.STEAM_WEB_API_KEY }}
+
     runs-on: ubuntu-latest
     name: Python Scripts Execution
     steps:
