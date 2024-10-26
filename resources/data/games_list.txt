@@ -1,10 +1,10 @@
-<p>Owned Games: <strong>349</strong>.<p>Total Playtime: <strong>2781.1</strong> hours.<ul><li>AION Free-to-Play - 2.3h played.</li>
+<p>Owned Games: <strong>349</strong>.<p>Total Playtime: <strong>2785.7</strong> hours.<ul><li>AION Free-to-Play - 2.3h played.</li>
 <li>ANIME STANDING - 0.6h played.</li>
 <li>APB Reloaded - 5.1h played.</li>
 <li>ARK: Survival Evolved - 0.5h played.</li>
 <li>ARK: Survival Of The Fittest - 0.0h played.</li>
 <li>ASTRONEER - 22.2h played.</li>
-<li>Abiotic Factor - 3.8h played.</li>
+<li>Abiotic Factor - 3.9h played.</li>
 <li>Ace of Spades - 5.5h played.</li>
 <li>Aftermath - 0.2h played.</li>
 <li>Aimlabs - 20.7h played.</li>
@@ -57,11 +57,11 @@
 <li>DARK SOULS™ III - 42.5h played.</li>
 <li>DC Universe Online - 5.0h played.</li>
 <li>DEATH STRANDING - 59.8h played.</li>
-<li>DEATH STRANDING DIRECTOR'S CUT - 33.1h played.</li>
+<li>DEATH STRANDING DIRECTOR'S CUT - 33.3h played.</li>
 <li>DOOM - 1.6h played.</li>
 <li>DRAGON BALL XENOVERSE 2 - 26.2h played.</li>
 <li>DRAGON BALL Z: KAKAROT - 0.5h played.</li>
-<li>Dark and Darker - 2.3h played.</li>
+<li>Dark and Darker - 5.9h played.</li>
 <li>Darkest Dungeon® - 4.2h played.</li>
 <li>Dead Cells - 2.1h played.</li>
 <li>Dead Island: Epidemic - 0.7h played.</li>
@@ -98,7 +98,7 @@
 <li>Everlasting Summer - 0.1h played.</li>
 <li>Evolve Stage 2 - 1.8h played.</li>
 <li>F.E.A.R. Online - 0.0h played.</li>
-<li>FINAL FANTASY IX - 2.4h played.</li>
+<li>FINAL FANTASY IX - 2.7h played.</li>
 <li>FOREWARNED - 1.4h played.</li>
 <li>FTL: Faster Than Light - 3.6h played.</li>
 <li>Fall Guys - 7.8h played.</li>
@@ -169,7 +169,7 @@
 <li>Mega Man X DiVE - 0.6h played.</li>
 <li>Mega Man X Legacy Collection - 15.1h played.</li>
 <li>Mega Man X Legacy Collection 2 - 1.4h played.</li>
-<li>Mega Man Zero/ZX Legacy Collection - 10.9h played.</li>
+<li>Mega Man Zero/ZX Legacy Collection - 11.4h played.</li>
 <li>Metal Assault - 0.3h played.</li>
 <li>Metro 2033 Redux - 0.0h played.</li>
 <li>Metro Exodus - 0.6h played.</li>
@@ -326,7 +326,7 @@
 <li>WAKFU - 3.4h played.</li>
 <li>WARMODE - 0.1h played.</li>
 <li>Wall World - 10.9h played.</li>
-<li>Wallpaper Engine - 28.9h played.</li>
+<li>Wallpaper Engine - 29.0h played.</li>
 <li>Warframe - 0.0h played.</li>
 <li>Warhammer 40,000: Gladius - Relics of War - 0.0h played.</li>
 <li>We Happy Few - 2.3h played.</li>
