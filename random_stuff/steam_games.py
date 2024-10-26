@@ -67,7 +67,7 @@ def formatGameListToHtml(gamesList: list[dict]) -> str:
     html = ""
 
     for game in gamesList:
-        html = html + f"<li>{game["name"]} - {game["playtime"]}h played.</li>" + "\n"
+        html = html + f"<li>{game['name']} - {game['playtime']}h played.</li>" + "\n"
 
     return html
 
