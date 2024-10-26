@@ -1,11 +1,11 @@
-name: update-indexes
+name: scripts-exec
 
 on: [push]
 
 jobs:
-  pages-directory-indexing:
+  setup-env:
     runs-on: ubuntu-latest
-    name: Directory Index Updating
+    name: Setup Environment
     steps:
       # Checkout repo
       - name: Checkout Repository
@@ -23,17 +23,36 @@ jobs:
       #     python -m pip install --upgrade pip
       #     pip install -r requirements.txt
 
+      - name: setup git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+  # Update steam games
+  steam-games-listing:
+    runs-on: ubuntu-latest
+    name: Steam Games Updating
+    steps:
+      - name: run python game listing
+        run: python random_stuff/steam_games.py
+
+  pages-directory-indexing:
+    runs-on: ubuntu-latest
+    name: Directory Index Updating
+    steps:
       # running the script
       - name: run python indexer
         run: python random_stuff/html_indexer.py
 
+  git-commit-push:
+    runs-on: ubuntu-latest
+    name: Git Commit and Push
+    steps:
       # commiting changes (--allow-empty incase there is no changes)
       - name: commit changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
           git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "Chore: Updated index - Action" --allow-empty)
+          git diff-index --quiet HEAD || (git commit -a -m "Chore: Ran Scripts - Action" --allow-empty)
 
       # pushing - uses auto generated token.
       - name: Push changes
