@@ -2,6 +2,7 @@
 import datetime
 import os
 import requests
+from dotenv import load_dotenv
 
 
 # Load my steam owned games directly from their api.
@@ -13,6 +14,11 @@ def loadGamesFromApi() -> tuple[int, int, list[dict]]:
         `tuple[int, list[dict]]`: A tuple contaning the number of owned games and a list of dict: `[{name: str, playtime: int,}, ...]`
     """
 
+    # If not running on github action, load env from file
+    if not os.getenv("GITHUB_ACTIONS"):
+        load_dotenv(dotenv_path="random_stuff/steam_secrets.env")
+
+    # Loads secrets from env
     STEAM_ID = os.environ["STEAM_ID"]
     STEAM_WEB_API_KEY = os.environ["STEAM_WEB_API_KEY"]
 
