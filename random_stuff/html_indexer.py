@@ -54,7 +54,7 @@ if __name__ == "__main__":
 
     print(f"Pages: {pages}")
 
-    file = open("indexes.txt", "w")
+    file = open("resources/data/indexes.txt", "w")
     file.write(html)
     file.close()
 

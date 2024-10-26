@@ -133,7 +133,7 @@
     </div>
     <script>
       // load the games from file and then add on the page
-      fetch("games_list.txt").then((result) => {
+      fetch("/resources/data/games_list.txt").then((result) => {
         if (result.status == 200) {
           result.text().then((body) => {
             document.getElementById("owned-games-list").innerHTML = body;

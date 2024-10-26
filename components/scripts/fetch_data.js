@@ -3,7 +3,7 @@
 async function fetchAndFillIndexes() {
   // load the index from file and then add on the page
   try {
-    result = await fetch("indexes.txt");
+    result = await fetch("resources/data/indexes.txt");
 
     if (result.status == 200) {
       return await result.text();

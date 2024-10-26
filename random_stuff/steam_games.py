@@ -77,7 +77,7 @@ def sortGamesListByName(game: list[dict]):
 
 
 if __name__ == "__main__":
-    HTML_PATH = "./html/about_me/hobbies/gaming/games_list.txt"
+    HTML_PATH = "resources/data/games_list.txt"
 
     date_before = datetime.datetime.now()
 
@@ -89,7 +89,7 @@ if __name__ == "__main__":
 
     # generate the html
     html = formatGameListToHtml(games)
-    #add total games and total playtime.
+    # add total games and total playtime.
     final_html = f"<p>Owned Games: <strong>{games_number}</strong>.<p>Total Playtime: <strong>{total_playtime}</strong> hours.<ul>{html}</ul>"
 
     # write the html to file
