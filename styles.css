@@ -125,6 +125,11 @@ a {
   text-decoration: underline;
 }
 
+li {
+  padding-top: 0.5px;
+  padding-bottom: 0.5px;
+}
+
 footer {
   background-color: #13092d;
   /* background color for footer */
