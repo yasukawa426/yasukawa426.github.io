@@ -1,4 +1,4 @@
-<p>Number of available pages: 21</p> 
+<p>Number of available pages: 22</p> 
 <ul>
 <li class='folder'><strong>About Me:</strong></li>
 <ul>
@@ -46,9 +46,19 @@
 <ul>
 <li class='folder'><strong>Collection:</strong></li>
 <ul>
-<li class="file"><a href="./html/about_me/thoughts/collection/broke_up.html">Broke Up</a></li>
-<li class="file"><a href="./html/about_me/thoughts/collection/eating_is_disappointing.html">Eating Is Disappointing</a></li>
-<li class="file"><a href="./html/about_me/thoughts/collection/site_reflections.html">Site Reflections</a></li>
+<li class='folder'><strong>Etc:</strong></li>
+<ul>
+<li class="file"><a href="./html/about_me/thoughts/collection/etc/broke_up.html">Broke Up</a></li>
+<li class="file"><a href="./html/about_me/thoughts/collection/etc/lone_hero.html">Lone Hero</a></li>
+</ul>
+<li class='folder'><strong>Life:</strong></li>
+<ul>
+<li class="file"><a href="./html/about_me/thoughts/collection/life/eating_is_disappointing.html">Eating Is Disappointing</a></li>
+</ul>
+<li class='folder'><strong>Site:</strong></li>
+<ul>
+<li class="file"><a href="./html/about_me/thoughts/collection/site/site_reflections.html">Site Reflections</a></li>
+</ul>
 </ul>
 <li class="file"><a href="./html/about_me/thoughts/thoughts.html">Thoughts</a></li>
 </ul>
