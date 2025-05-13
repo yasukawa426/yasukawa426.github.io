@@ -1,3 +1,4 @@
 steam_secrets.py
 *.pyc
 *.env
+secrets/
