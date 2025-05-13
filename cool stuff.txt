@@ -1,7 +1,9 @@
 https://web.archive.org/web/20160801020225/http://www.ulillillia.us/mainindex.shtml - Link no WayBackMachine do site que me inspirou.
 https://goblin-heart.net/sadgrl/ - Site legal, bem oldschool.
-https://staticman.net/ - User-generated content to static sites.
 https://disqus.com/ - Comments and discussion. Has a free plan but you are required to add ads to your site.
 https://utteranc.es/ - Comments using github issues.
 https://giscus.app/ - Inpired by utteranc, same, but uses github discussion instead.
 https://docs.github.com/en - Github APIs doc.
+https://staticman.net/ - User-generated content to static sites.
+https://travisdowns.github.io/blog/2020/02/05/now-with-comments.html#set-up-github-bot-account - Staticman implementation example.
+https://render.com/ - Heroku alternative with free plan.
