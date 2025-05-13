@@ -1,4 +1,5 @@
-<p>Owned Games: <strong>364</strong>.<p>Total Playtime: <strong>2859.2</strong> hours.<ul><li>AION Free-to-Play - 2.3h played.</li>
+<p>Owned Games: <strong>366</strong>.<p>Total Playtime: <strong>2876.9</strong> hours.<ul><li>(the) Gnorp Apologue - 8.6h played.</li>
+<li>AION Free-to-Play - 2.3h played.</li>
 <li>ANIME STANDING - 0.6h played.</li>
 <li>APB Reloaded - 5.1h played.</li>
 <li>ARK: Survival Evolved - 0.5h played.</li>
@@ -117,7 +118,7 @@
 <li>FreeStyle 2: Street Basketball - 17.8h played.</li>
 <li>GRID 2 - 0.0h played.</li>
 <li>GTFO - 2.1h played.</li>
-<li>Garry's Mod - 146.0h played.</li>
+<li>Garry's Mod - 146.1h played.</li>
 <li>Gear Up - 0.1h played.</li>
 <li>Ghost in the Shell: Stand Alone Complex - First Assault Online - 2.2h played.</li>
 <li>Godot Engine - 0.8h played.</li>
@@ -282,7 +283,7 @@
 <li>Sonic Adventure™ 2  - 23.9h played.</li>
 <li>Sonic CD - 1.0h played.</li>
 <li>Sonic Frontiers - 5.9h played.</li>
-<li>Sonic Generations - 2.6h played.</li>
+<li>Sonic Generations - 4.2h played.</li>
 <li>Sonic Lost World - 0.4h played.</li>
 <li>Sonic and SEGA All Stars Racing - 0.0h played.</li>
 <li>Sons Of The Forest - 6.7h played.</li>
@@ -305,6 +306,7 @@
 <li>Tabletop Simulator - 74.3h played.</li>
 <li>Teeworlds - 1.5h played.</li>
 <li>Terraria - 95.8h played.</li>
+<li>The Big Catch: Tacklebox - 7.4h played.</li>
 <li>The Elder Scrolls V: Skyrim - 71.6h played.</li>
 <li>The Elder Scrolls V: Skyrim Special Edition - 0.0h played.</li>
 <li>The Expendabros - 1.6h played.</li>
