@@ -9,6 +9,7 @@ Things that I am using on it:
 - [GitHub Actions](https://github.com/features/actions) to run some scripts I wrote in python whenever I push to this repo.
 - [GitHub APIs](https://docs.github.com/) to load commits data.
 - I used [Godot](https://godotengine.org/) to make some games that I have on the site.
+- [utterances](https://utteranc.es/) for GitHub issue based comment section.
 
 Tech stack:
 Just plain old html, css and javascript. I also wrote some python scripts for indexing and to load my steam games list, but that's it. I try to avoid using any framework and libraries. My IDE is VsCode with tons of extensions. The site is hosted using GitHub Pages. Maybe I will change it in the future, but idk.
