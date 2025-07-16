@@ -1,4 +1,4 @@
-<p>Owned Games: <strong>403</strong>.<p>Total Playtime: <strong>3218.9</strong> hours.<ul><li>(the) Gnorp Apologue - 8.6h played.</li>
+<p>Owned Games: <strong>403</strong>.<p>Total Playtime: <strong>3222.5</strong> hours.<ul><li>(the) Gnorp Apologue - 8.6h played.</li>
 <li>AION Free-to-Play - 2.3h played.</li>
 <li>ANIME STANDING - 0.6h played.</li>
 <li>APB Reloaded - 5.1h played.</li>
@@ -278,7 +278,7 @@
 <li>Resident Evil 7 Biohazard - 23.8h played.</li>
 <li>Resident Evil Re:Verse - 0.0h played.</li>
 <li>Resident Evil Village - 20.4h played.</li>
-<li>RimWorld - 324.1h played.</li>
+<li>RimWorld - 326.0h played.</li>
 <li>Risk of Rain 2 - 11.2h played.</li>
 <li>Robocraft - 1.1h played.</li>
 <li>Run and Fire - 0.0h played.</li>
@@ -348,7 +348,7 @@
 <li>The Past Within - 1.9h played.</li>
 <li>The Quarry - 3.0h played.</li>
 <li>The Walking Dead: The Telltale Definitive Series - 0.0h played.</li>
-<li>The Witch's House MV - 0.1h played.</li>
+<li>The Witch's House MV - 1.9h played.</li>
 <li>The Witcher 3: Wild Hunt - 5.5h played.</li>
 <li>Tom Clancy's Rainbow Six Siege - Test Server - 0.0h played.</li>
 <li>Tom Clancy's Rainbow Six® Siege X - 7.9h played.</li>
