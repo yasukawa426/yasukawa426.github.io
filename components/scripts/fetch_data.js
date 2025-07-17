@@ -43,6 +43,7 @@ async function fetchCommits() {
         const ref = body[i].sha;
 
         // Fetches the specific commit to get the files that were edited
+        // + ?.Date.now() to bust the cache and force the browser to reload the file.
         const result = await fetch(
           `https://api.github.com/repos/yasukawa426/yasukawa426.github.io/commits/${ref}`
         );
@@ -91,7 +92,7 @@ async function fetchCommits() {
 async function fetchStatus() {
   // load the status from file and then add on the page
   try {
-    result = await fetch("resources/data/status.json");
+    result = await fetch("resources/data/status.json" + "?" + Date.now());
 
     if (result.status == 200) {
       // Returns the object {status: "Feeling pretty proud of this app.", date: "today"}
