@@ -22,6 +22,34 @@
 
       gtag("config", "G-1T5L5ZNXHP");
     </script>
+
+    <style>
+      #status-section {
+        background-color: rgba(6, 179, 179, 0.1);
+        border: 2px solid rgb(6, 179, 179);
+        border-radius: 10px;
+        padding: 10px 15px;
+        margin: 20px 0;
+        text-align: center;
+      }
+
+      #status-section h1 {
+        color: rgb(6, 179, 179);
+        font-size: 22px;
+        margin-bottom: 10px;
+      }
+
+      #status-text {
+        font-weight: bold;
+        font-size: 16px;
+        color: var(--text-color);
+      }
+
+      #status-text::before {
+        content: "● ";
+        color: var(--status-color, blue);
+      }
+    </style>
   </head>
   <body>
     <div id="container">
@@ -63,6 +91,11 @@
               after implementing it, I will write the changes on the
               <a href="/html/random_pages/changelog.html">changelog</a> page.
             </p>
+          </div>
+
+          <div id="status-section">
+            <h1>Status</h1>
+            <p id="status-text">Loading status...</p>
           </div>
 
           <div id="navigation">
