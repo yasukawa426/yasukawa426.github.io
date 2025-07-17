@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <div id="site-name">SadBoy's Place</div>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SadBoy's Place</title>
@@ -24,8 +25,11 @@
     </script>
 
     <style>
+      #site-name {
+        position: absolute;
+      }
       #status-section {
-        background-color: rgba(6, 179, 179, 0.1);
+        background-color: rgba(255, 255, 255, 0.1);
         border: 2px solid rgb(6, 179, 179);
         border-radius: 10px;
         padding: 10px 15px;
@@ -34,14 +38,11 @@
       }
 
       #status-section h1 {
-        color: rgb(6, 179, 179);
-        font-size: 22px;
         margin-bottom: 10px;
       }
 
       #status-text {
         font-weight: bold;
-        font-size: 16px;
         color: var(--text-color);
       }
 
@@ -218,7 +219,8 @@
 
         fetchStatus().then(
           (statusJson) => {
-            statusTextElement.innerHTML = statusJson.status + " (" + statusJson.date + ")";
+            statusTextElement.innerHTML =
+              statusJson.status + " (" + statusJson.date + ")";
             statusTextElement.style.setProperty("--status-color", "lime");
           },
           (err) => {
