@@ -212,7 +212,24 @@
         );
       }
 
+      // Load the status text from json file and add it to the html.
+      function addStatusText() {
+        let statusTextElement = document.getElementById("status-text");
+
+        fetchStatus().then(
+          (statusJson) => {
+            statusTextElement.innerHTML = statusJson.status;
+            statusTextElement.style.setProperty("--status-color", "lime");
+          },
+          (err) => {
+            statusTextElement.innerHTML = err;
+            statusTextElement.style.setProperty("--status-color", "red");
+          }
+        );
+      }
+
       addIndexToHtml();
+      addStatusText();
 
       let commitsDiv = document.getElementById("latest-changes");
       let commits;
