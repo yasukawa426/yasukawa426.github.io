@@ -85,3 +85,21 @@ async function fetchCommits() {
     return Promise.reject("Failed to load commits :(");
   }
 }
+
+// Fetches my status from the status.json file and returns it.
+// If failed to load status, return a rejected promise.
+async function fetchStatus() {
+  // load the status from file and then add on the page
+  try {
+    result = await fetch("resources/data/status.json");
+
+    if (result.status == 200) {
+      // Returns the object {status: "Feeling pretty proud of this app.", date: "today"}
+      return JSON.parse(await result.text());
+    } else {
+      throw new Error("Failed to load status");
+    }
+  } catch {
+    return Promise.reject("Failed to load status");
+  }
+}
