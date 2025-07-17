@@ -218,7 +218,7 @@
 
         fetchStatus().then(
           (statusJson) => {
-            statusTextElement.innerHTML = statusJson.status;
+            statusTextElement.innerHTML = statusJson.status + " (" + statusJson.date + ")";
             statusTextElement.style.setProperty("--status-color", "lime");
           },
           (err) => {
