@@ -1,4 +1,4 @@
-<p>Number of available pages: 22</p> 
+<p>Number of available pages: 23</p> 
 <ul>
 <li class='folder'><strong>About Me:</strong></li>
 <ul>
@@ -8,6 +8,10 @@
 <li class="file"><a href="./html/about_me/dream_journal/dream_journal.html">Dream Journal</a></li>
 <li class='folder'><strong>Dreams:</strong></li>
 <ul>
+<li class='folder'><strong>072025:</strong></li>
+<ul>
+<li class="file"><a href="./html/about_me/dream_journal/dreams/072025/uber_dream.html">Uber Dream</a></li>
+</ul>
 <li class='folder'><strong>092024:</strong></li>
 <ul>
 <li class="file"><a href="./html/about_me/dream_journal/dreams/092024/weird_girl_dream.html">Weird Girl Dream</a></li>

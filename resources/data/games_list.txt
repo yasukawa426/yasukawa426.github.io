@@ -1,4 +1,4 @@
-<p>Owned Games: <strong>403</strong>.<p>Total Playtime: <strong>3235.8</strong> hours.<ul><li>(the) Gnorp Apologue - 8.6h played.</li>
+<p>Owned Games: <strong>403</strong>.<p>Total Playtime: <strong>3288.1</strong> hours.<ul><li>(the) Gnorp Apologue - 8.6h played.</li>
 <li>AION Free-to-Play - 2.3h played.</li>
 <li>ANIME STANDING - 0.6h played.</li>
 <li>APB Reloaded - 5.1h played.</li>
@@ -69,7 +69,7 @@
 <li>Darkest Dungeon® - 18.4h played.</li>
 <li>Dead Cells - 2.1h played.</li>
 <li>Dead Island: Epidemic - 0.7h played.</li>
-<li>Dead by Daylight - 43.9h played.</li>
+<li>Dead by Daylight - 46.2h played.</li>
 <li>Deadlock - 1.7h played.</li>
 <li>Deceit - 0.2h played.</li>
 <li>Deducto - 0.0h played.</li>
@@ -123,7 +123,7 @@
 <li>FreeStyle 2: Street Basketball - 17.8h played.</li>
 <li>GRID 2 - 0.0h played.</li>
 <li>GTFO - 2.1h played.</li>
-<li>Garry's Mod - 146.1h played.</li>
+<li>Garry's Mod - 147.2h played.</li>
 <li>Gear Up - 0.1h played.</li>
 <li>Ghost in the Shell: Stand Alone Complex - First Assault Online - 2.2h played.</li>
 <li>Godot Engine - 0.8h played.</li>
@@ -229,7 +229,7 @@
 <li>Oxygen Not Included - 11.2h played.</li>
 <li>PAYDAY 2 - 2.9h played.</li>
 <li>PAYDAY: The Heist - 9.3h played.</li>
-<li>PEAK - 4.4h played.</li>
+<li>PEAK - 6.5h played.</li>
 <li>PICO PARK - 4.1h played.</li>
 <li>Paladins - 3.9h played.</li>
 <li>Paladins - Public Test - 0.0h played.</li>
@@ -278,7 +278,7 @@
 <li>Resident Evil 7 Biohazard - 23.8h played.</li>
 <li>Resident Evil Re:Verse - 0.0h played.</li>
 <li>Resident Evil Village - 20.4h played.</li>
-<li>RimWorld - 338.8h played.</li>
+<li>RimWorld - 384.2h played.</li>
 <li>Risk of Rain 2 - 11.2h played.</li>
 <li>Robocraft - 1.1h played.</li>
 <li>Run and Fire - 0.0h played.</li>
@@ -306,7 +306,7 @@
 <li>Slipstream 5000 - 1.3h played.</li>
 <li>Somewhere in the Shadow - 1.3h played.</li>
 <li>Sonic & All-Stars Racing Transformed Collection - 3.6h played.</li>
-<li>Sonic Adventure DX - 0.2h played.</li>
+<li>Sonic Adventure DX - 0.3h played.</li>
 <li>Sonic Adventure™ 2  - 23.9h played.</li>
 <li>Sonic CD - 1.0h played.</li>
 <li>Sonic Frontiers - 5.9h played.</li>
@@ -335,7 +335,7 @@
 <li>Tabletop Simulator - 74.3h played.</li>
 <li>Teeworlds - 1.5h played.</li>
 <li>Terraria - 104.0h played.</li>
-<li>The Big Catch: Tacklebox - 7.5h played.</li>
+<li>The Big Catch: Tacklebox - 8.6h played.</li>
 <li>The Elder Scrolls V: Skyrim - 71.6h played.</li>
 <li>The Elder Scrolls V: Skyrim Special Edition - 1.9h played.</li>
 <li>The Expendabros - 1.6h played.</li>
@@ -376,7 +376,7 @@
 <li>WAKFU - 3.4h played.</li>
 <li>WARMODE - 0.1h played.</li>
 <li>Wall World - 10.9h played.</li>
-<li>Wallpaper Engine - 29.5h played.</li>
+<li>Wallpaper Engine - 29.7h played.</li>
 <li>Warframe - 0.0h played.</li>
 <li>Warhammer 40,000: Gladius - Relics of War - 0.0h played.</li>
 <li>Warhammer: Vermintide 2 - 0.0h played.</li>
