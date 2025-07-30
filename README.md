@@ -20,3 +20,6 @@ I guess that's it, enjoy.
 <br>
 <br>
 [Sadboy's Place](https://yasukawa426.github.io/) - Cringe name, I know and don't care.
+
+### Commits Guideline
+I use the basic commit convention of adding a prefix (fix, feat, doc, etc) to the title whenever I change the code. However, when I'm adding new content, like, new entries to my dream journal, I use the "cont" prefix instead. 
