@@ -1,11 +1,11 @@
-<p>Owned Games: <strong>408</strong>.<p>Total Playtime: <strong>3295.7</strong> hours.<ul><li>(the) Gnorp Apologue - 8.6h played.</li>
+<p>Owned Games: <strong>409</strong>.<p>Total Playtime: <strong>3321.9</strong> hours.<ul><li>(the) Gnorp Apologue - 8.6h played.</li>
 <li>AION Free-to-Play - 2.3h played.</li>
 <li>ANIME STANDING - 0.6h played.</li>
 <li>APB Reloaded - 5.1h played.</li>
 <li>ARK: Survival Evolved - 0.5h played.</li>
 <li>ARK: Survival Of The Fittest - 0.0h played.</li>
 <li>ASTRONEER - 22.2h played.</li>
-<li>Abiotic Factor - 7.6h played.</li>
+<li>Abiotic Factor - 23.7h played.</li>
 <li>Ace of Spades - 5.5h played.</li>
 <li>Aftermath - 0.2h played.</li>
 <li>Aimlabs - 20.7h played.</li>
@@ -25,6 +25,7 @@
 <li>BRAIN / OUT - 0.1h played.</li>
 <li>Barony - 2.8h played.</li>
 <li>Barotrauma - 6.4h played.</li>
+<li>Battlefield™ 6 Open Beta - 0.1h played.</li>
 <li>Battlerite - 1.1h played.</li>
 <li>Battlerite Public Test - 0.0h played.</li>
 <li>Bayonetta - 0.0h played.</li>
@@ -233,7 +234,7 @@
 <li>PICO PARK - 4.1h played.</li>
 <li>Paladins - 3.9h played.</li>
 <li>Paladins - Public Test - 0.0h played.</li>
-<li>Paper Lily - Chapter 1 - 0.0h played.</li>
+<li>Paper Lily - Chapter 1 - 1.1h played.</li>
 <li>Path of Exile - 0.0h played.</li>
 <li>Pathologic 3: Quarantine - 0.0h played.</li>
 <li>Paunch - 0.5h played.</li>
@@ -380,7 +381,7 @@
 <li>WAKFU - 3.4h played.</li>
 <li>WARMODE - 0.1h played.</li>
 <li>Wall World - 10.9h played.</li>
-<li>Wallpaper Engine - 29.7h played.</li>
+<li>Wallpaper Engine - 38.6h played.</li>
 <li>Warframe - 0.0h played.</li>
 <li>Warhammer 40,000: Gladius - Relics of War - 0.0h played.</li>
 <li>Warhammer: Vermintide 2 - 0.0h played.</li>
