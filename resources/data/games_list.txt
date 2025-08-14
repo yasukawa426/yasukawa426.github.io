@@ -1,4 +1,4 @@
-<p>Owned Games: <strong>403</strong>.<p>Total Playtime: <strong>3288.1</strong> hours.<ul><li>(the) Gnorp Apologue - 8.6h played.</li>
+<p>Owned Games: <strong>408</strong>.<p>Total Playtime: <strong>3295.7</strong> hours.<ul><li>(the) Gnorp Apologue - 8.6h played.</li>
 <li>AION Free-to-Play - 2.3h played.</li>
 <li>ANIME STANDING - 0.6h played.</li>
 <li>APB Reloaded - 5.1h played.</li>
@@ -69,7 +69,7 @@
 <li>Darkest Dungeon® - 18.4h played.</li>
 <li>Dead Cells - 2.1h played.</li>
 <li>Dead Island: Epidemic - 0.7h played.</li>
-<li>Dead by Daylight - 46.2h played.</li>
+<li>Dead by Daylight - 46.8h played.</li>
 <li>Deadlock - 1.7h played.</li>
 <li>Deceit - 0.2h played.</li>
 <li>Deducto - 0.0h played.</li>
@@ -233,6 +233,7 @@
 <li>PICO PARK - 4.1h played.</li>
 <li>Paladins - 3.9h played.</li>
 <li>Paladins - Public Test - 0.0h played.</li>
+<li>Paper Lily - Chapter 1 - 0.0h played.</li>
 <li>Path of Exile - 0.0h played.</li>
 <li>Pathologic 3: Quarantine - 0.0h played.</li>
 <li>Paunch - 0.5h played.</li>
@@ -257,6 +258,7 @@
 <li>Quake Live - 0.0h played.</li>
 <li>R.E.P.O. - 12.1h played.</li>
 <li>REMATCH - 7.5h played.</li>
+<li>REMATCH BETA TEST - 5.5h played.</li>
 <li>RESIDENT EVIL RESISTANCE - 0.0h played.</li>
 <li>ROGUE LIGHT DECK BUILDER - 2.1h played.</li>
 <li>RPG Maker XP - 0.0h played.</li>
@@ -278,17 +280,19 @@
 <li>Resident Evil 7 Biohazard - 23.8h played.</li>
 <li>Resident Evil Re:Verse - 0.0h played.</li>
 <li>Resident Evil Village - 20.4h played.</li>
-<li>RimWorld - 384.2h played.</li>
+<li>RimWorld - 384.4h played.</li>
 <li>Risk of Rain 2 - 11.2h played.</li>
 <li>Robocraft - 1.1h played.</li>
 <li>Run and Fire - 0.0h played.</li>
 <li>Rust - 0.6h played.</li>
+<li>Rust - Staging Branch - 0.0h played.</li>
 <li>SCP: Secret Laboratory - 0.8h played.</li>
 <li>SEGA Mega Drive & Genesis Classics - 3.6h played.</li>
 <li>SONIC THE HEDGEHOG 4 Episode I - 0.9h played.</li>
 <li>SONIC THE HEDGEHOG 4 Episode II - 2.2h played.</li>
 <li>SYNTHETIK: Arena - 0.5h played.</li>
 <li>Sakura Clicker - 0.0h played.</li>
+<li>Sand Playtest - 0.0h played.</li>
 <li>Satisfactory - 36.8h played.</li>
 <li>Scrap Mechanic - 3.0h played.</li>
 <li>Secret World Legends - 0.2h played.</li>
@@ -306,7 +310,7 @@
 <li>Slipstream 5000 - 1.3h played.</li>
 <li>Somewhere in the Shadow - 1.3h played.</li>
 <li>Sonic & All-Stars Racing Transformed Collection - 3.6h played.</li>
-<li>Sonic Adventure DX - 0.3h played.</li>
+<li>Sonic Adventure DX - 0.9h played.</li>
 <li>Sonic Adventure™ 2  - 23.9h played.</li>
 <li>Sonic CD - 1.0h played.</li>
 <li>Sonic Frontiers - 5.9h played.</li>
@@ -387,12 +391,13 @@
 <li>We Were Here Too - 4.6h played.</li>
 <li>Who Needs a Hero? - 5.7h played.</li>
 <li>Who's Your Daddy?! - 0.3h played.</li>
+<li>Wildgate Community Preview - 0.0h played.</li>
 <li>Witch It - 3.9h played.</li>
 <li>Without Within - 0.8h played.</li>
 <li>World of Tanks Blitz - 0.8h played.</li>
 <li>Worms Armageddon - 11.7h played.</li>
 <li>Worms Revolution - 5.5h played.</li>
-<li>Worms Ultimate Mayhem - 0.0h played.</li>
+<li>Worms Ultimate Mayhem - 0.8h played.</li>
 <li>XCOM 2 - 3.1h played.</li>
 <li>You Have to Win the Game - 0.6h played.</li>
 <li>Your Mother - 0.2h played.</li>
