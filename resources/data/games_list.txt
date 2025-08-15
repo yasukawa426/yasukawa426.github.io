@@ -1,11 +1,11 @@
-<p>Owned Games: <strong>409</strong>.<p>Total Playtime: <strong>3321.9</strong> hours.<ul><li>(the) Gnorp Apologue - 8.6h played.</li>
+<p>Owned Games: <strong>409</strong>.<p>Total Playtime: <strong>3323.9</strong> hours.<ul><li>(the) Gnorp Apologue - 8.6h played.</li>
 <li>AION Free-to-Play - 2.3h played.</li>
 <li>ANIME STANDING - 0.6h played.</li>
 <li>APB Reloaded - 5.1h played.</li>
 <li>ARK: Survival Evolved - 0.5h played.</li>
 <li>ARK: Survival Of The Fittest - 0.0h played.</li>
 <li>ASTRONEER - 22.2h played.</li>
-<li>Abiotic Factor - 23.7h played.</li>
+<li>Abiotic Factor - 23.8h played.</li>
 <li>Ace of Spades - 5.5h played.</li>
 <li>Aftermath - 0.2h played.</li>
 <li>Aimlabs - 20.7h played.</li>
@@ -25,7 +25,7 @@
 <li>BRAIN / OUT - 0.1h played.</li>
 <li>Barony - 2.8h played.</li>
 <li>Barotrauma - 6.4h played.</li>
-<li>Battlefield™ 6 Open Beta - 0.1h played.</li>
+<li>Battlefield™ 6 Open Beta - 2.0h played.</li>
 <li>Battlerite - 1.1h played.</li>
 <li>Battlerite Public Test - 0.0h played.</li>
 <li>Bayonetta - 0.0h played.</li>
