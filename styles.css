@@ -212,3 +212,23 @@ p.image-description {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
+/* --------------------- */
+
+
+/* Table of Contents styles */
+table.toc {
+  border-collapse: collapse;
+}
+
+table.toc th,
+table.toc td {
+  border: 1px solid;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+table.toc a:hover {
+  text-decoration: underline;
+}
+
+/* -------------------- */
