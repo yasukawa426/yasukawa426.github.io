@@ -1,6 +1,8 @@
 name: scripts-exec
 
-on: [push]
+on:
+  push:
+    branches: [main]
 
 jobs:
   python-scripts-execution:
@@ -41,11 +43,11 @@ jobs:
       - name: run python indexer
         run: python random_stuff/html_indexer.py
 
-      # commiting changes (--allow-empty incase there is no changes)
+      # commiting changes
       - name: commit changes
         run: |
           git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "Chore: Ran Scripts - Action" --allow-empty)
+          git diff-index --quiet HEAD || (git commit -a -m "Chore: Ran Scripts - Action")
 
       # pushing - uses auto generated token.
       - name: Push changes
