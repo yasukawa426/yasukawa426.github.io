@@ -1,0 +1,58 @@
+First of all, we want to host our entire website in a new folder, and for github pages, the folder needs to be call "docs"
+
+We will separe the site in 2 folders: layout and content
+
+layout will contain all repeating/boilerplate html code. Navbar, footer, etc.
+plus a placeholder ({{title}} and {{content}}) that will later be replaced by the actual page html code
+
+For example: 
+layout.html
+<head>
+imports, css and stuff
+<title>{{title}}</title>
+</head>
+<main>
+navbar
+{{content}}
+footer
+
+-----------------
+content will have all our page without the boilerplate codes contained in the layout.html
+for exmaple:
+
+index.html
+
+<!-- title: Sadboy's Place -->
+<h1>Welcome to my Website!</h1>
+<p>This is my home bla bla c bla</p>
+-----------------
+And there will be a .py builder script that will take all content, insert into the layout.html and output to the "docs" folder.
+
+-------
+
+1: Change all absolute paths (eg: <a href=/html/page.html>) to relative paths (<a href=page.html)
+
+2: Create the layout file - css import, navbar, footer, etc.
+
+3: Create the build script - The script will:
+
+Walk content/ recursively.
+
+Wrap each page in layout.html.
+
+Copy raw/ folders as-is.
+
+Ignore templates/.
+
+4: Create the content folder - It should have the same struct of the actual site minus the boilerplate code. So I can just copy and paste evrything and then go removing stuff that are not the actual content.
+
+5: Any page that I don't want to use layout.html should go into a separe "raw" folder. These will just be copied into the output folder
+Example: 
+raw/my_games/pong_clone
+raw/my_games/snake
+
+6: Resources folder should be separed from content and layout, just like it is now. Maybe move css to resources fodler.
+
+7: Build - run the build script
+
+8: Push to github and config pages to use the new "docs" folder.
