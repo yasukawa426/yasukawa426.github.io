@@ -44,7 +44,7 @@ def generate_html_list(path, number=0):
 if __name__ == "__main__":
     start_time = datetime.datetime.now()
 
-    HTML_PATH = "./html"
+    HTML_PATH = "/html"
 
     # incresing recursio limit
     # sys.setrecursionlimit(5000)

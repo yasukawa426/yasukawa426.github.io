@@ -9,7 +9,7 @@ class NavBar extends HTMLElement {
         <nav id="navbar">
         <ul>
             <li><a onclick="history.back()"><</a></li>
-            <li><a href="/">Home</a></li>
+            <li><a href="/html">Home</a></li>
             <li></li>
           </ul>
         </nav>

@@ -3,7 +3,7 @@
 async function fetchAndFillIndexes() {
   // load the index from file and then add on the page
   try {
-    result = await fetch("resources/data/indexes.txt");
+    result = await fetch("/resources/data/indexes.txt");
 
     if (result.status == 200) {
       return await result.text();
@@ -92,7 +92,7 @@ async function fetchCommits() {
 async function fetchStatus() {
   // load the status from file and then add on the page
   try {
-    result = await fetch("resources/data/status.json" + "?" + Date.now());
+    result = await fetch("/resources/data/status.json" + "?" + Date.now());
 
     if (result.status == 200) {
       // Returns the object {status: "Feeling pretty proud of this app.", date: "today"}
