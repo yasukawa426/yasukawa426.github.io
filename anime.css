@@ -1,0 +1,154 @@
+:root {
+  /* --header-image: url(resources/stars.gif); */
+  --body-bg-image: url("/resources/background_images/rakka.jpg");
+  /* rgba(0, 30, 60, 0.5) - rgba(0, 0, 0, 0.6) */
+  --content: rgba(0, 0, 0, 0.5);
+  --text-color: white;
+
+  /* colors */
+}
+
+div#headerArea {
+  height: 40px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* ------------------------------ */
+
+/* navigation section!! */
+#navbar {
+  height: 40px;
+  background-color: #222;
+  /* navbar color */
+  width: 100%;
+}
+
+#navbar ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+#navbar li {
+  padding-top: 10px;
+}
+
+/* navigation links*/
+#navbar li a {
+  font-weight: 800;
+  text-decoration: none;
+  /* this removes the underline */
+}
+
+/* navigation link when a link is hovered over */
+#navbar li a:hover {
+  text-decoration: underline;
+}
+
+/* ---------------------- */
+
+#flex {
+  display: flex;
+}
+
+/* so you wanna change the width of your page? 
+    by default, the container width is 900px.
+    in order to keep things responsive, take your new height,
+    and then subtrack it by 100. use this new number as the 
+    "max-width" value below
+    */
+
+body {
+  margin: 0;
+  text-align: justify;
+  font-family: sans-serif;
+  font-size: medium;
+  color: var(--text-color);
+  background-image: 
+  /* linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(182,218,239, 5) 100%
+    ), */
+    var(--body-bg-image);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 1); /* dark shadow */
+  background-color: #b6daef;
+}
+
+@media only screen and (max-width: 1000px) {
+  #flex {
+    flex-wrap: wrap;
+  }
+}
+
+/* the "container" is what wraps your entire website */
+/* if you want something (like the header) to be Wider than
+the other elements, you will need to move that div outside
+of the container */
+#container {
+  max-width: 1300px;
+  /* this is the width of your layout! */
+  /* if you change the above value, scroll to the bottom
+    and change the media query according to the comment! */
+  margin: 0 auto;
+  /* this centers the entire page */
+}
+
+/* this is the color of the main content area */
+main {
+  background: var(--content);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(50px);
+  flex: 1;
+  border-radius: 0 0 1rem 1rem;
+  padding: 10px;
+}
+
+.glow {
+  text-shadow: 0 0 5px #fff, 0 0 10px #ff80ff, 0 0 20px #ff00ff;
+}
+
+/* headlines stuff */
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: rgb(6, 179, 179);
+}
+
+/* bold style */
+strong {
+  color: chocolate;
+}
+
+/* links */
+a {
+  color: aqua;
+  font-weight: bold;
+}
+
+/* Table of Contents styles */
+table.toc {
+  border-collapse: collapse;
+}
+
+table.toc th,
+table.toc td {
+  border: 1px solid;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+table.toc a:hover {
+  text-decoration: underline;
+}
+
+/* -------------------- */
