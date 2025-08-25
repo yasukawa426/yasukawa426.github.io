@@ -59,7 +59,7 @@ div#headerArea {
     "max-width" value below
     */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1400px) {
   #flex {
     flex-wrap: wrap;
   }
@@ -70,7 +70,7 @@ div#headerArea {
 the other elements, you will need to move that div outside
 of the container */
 #container {
-  max-width: 900px;
+  max-width: 1300px;
   /* this is the width of your layout! */
   /* if you change the above value, scroll to the bottom
     and change the media query according to the comment! */
