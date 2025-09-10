@@ -1,15 +1,17 @@
-<p>Owned Games: <strong>409</strong>.<p>Total Playtime: <strong>3323.9</strong> hours.<ul><li>(the) Gnorp Apologue - 8.6h played.</li>
+<p>Owned Games: <strong>417</strong>.<p>Total Playtime: <strong>3421.1</strong> hours.<ul><li>(the) Gnorp Apologue - 8.7h played.</li>
 <li>AION Free-to-Play - 2.3h played.</li>
 <li>ANIME STANDING - 0.6h played.</li>
 <li>APB Reloaded - 5.1h played.</li>
 <li>ARK: Survival Evolved - 0.5h played.</li>
 <li>ARK: Survival Of The Fittest - 0.0h played.</li>
 <li>ASTRONEER - 22.2h played.</li>
-<li>Abiotic Factor - 23.8h played.</li>
+<li>Abiotic Factor - 38.0h played.</li>
 <li>Ace of Spades - 5.5h played.</li>
 <li>Aftermath - 0.2h played.</li>
 <li>Aimlabs - 20.7h played.</li>
 <li>AirMech - 0.0h played.</li>
+<li>Alan Wake - 0.0h played.</li>
+<li>Alan Wake's American Nightmare - 0.0h played.</li>
 <li>Albion Online - 6.3h played.</li>
 <li>Alien Swarm: Reactive Drop - 1.8h played.</li>
 <li>Among Us - 17.1h played.</li>
@@ -25,7 +27,7 @@
 <li>BRAIN / OUT - 0.1h played.</li>
 <li>Barony - 2.8h played.</li>
 <li>Barotrauma - 6.4h played.</li>
-<li>Battlefield™ 6 Open Beta - 2.0h played.</li>
+<li>Battlefield™ 6 Open Beta - 3.3h played.</li>
 <li>Battlerite - 1.1h played.</li>
 <li>Battlerite Public Test - 0.0h played.</li>
 <li>Bayonetta - 0.0h played.</li>
@@ -35,6 +37,7 @@
 <li>Block N Load - 0.9h played.</li>
 <li>Blood Typers - 2.3h played.</li>
 <li>BombTag - 1.4h played.</li>
+<li>Bongo Cat - 0.3h played.</li>
 <li>Booty Calls - 2.8h played.</li>
 <li>Borderlands 2 - 4.8h played.</li>
 <li>Borderlands 3 - 4.9h played.</li>
@@ -51,6 +54,7 @@
 <li>Codename CURE - 0.0h played.</li>
 <li>Confess My Love - 0.8h played.</li>
 <li>Contagion - 2.4h played.</li>
+<li>Content Warning - 2.0h played.</li>
 <li>Cookie Clicker - 133.5h played.</li>
 <li>Core Keeper - 2.5h played.</li>
 <li>Counter-Strike 2 - 4.3h played.</li>
@@ -218,7 +222,7 @@
 <li>NiGHTS into Dreams... - 0.0h played.</li>
 <li>No More Room in Hell - 11.5h played.</li>
 <li>No-good Streamer Mirai-chan! (Now accepting lewd comments)  Demo - 0.3h played.</li>
-<li>Noita - 133.8h played.</li>
+<li>Noita - 171.4h played.</li>
 <li>Occult Rewrite - 2.3h played.</li>
 <li>Of Guards And Thieves - 0.2h played.</li>
 <li>Omega Strikers - 1.2h played.</li>
@@ -281,6 +285,7 @@
 <li>Resident Evil 7 Biohazard - 23.8h played.</li>
 <li>Resident Evil Re:Verse - 0.0h played.</li>
 <li>Resident Evil Village - 20.4h played.</li>
+<li>Reverse: 1999 - 0.0h played.</li>
 <li>RimWorld - 384.4h played.</li>
 <li>Risk of Rain 2 - 11.2h played.</li>
 <li>Robocraft - 1.1h played.</li>
@@ -288,7 +293,8 @@
 <li>Rust - 0.6h played.</li>
 <li>Rust - Staging Branch - 0.0h played.</li>
 <li>SCP: Secret Laboratory - 0.8h played.</li>
-<li>SEGA Mega Drive & Genesis Classics - 3.6h played.</li>
+<li>SEGA Mega Drive & Genesis Classics - 3.9h played.</li>
+<li>SHINOBI: Art of Vengeance Demo - 0.8h played.</li>
 <li>SONIC THE HEDGEHOG 4 Episode I - 0.9h played.</li>
 <li>SONIC THE HEDGEHOG 4 Episode II - 2.2h played.</li>
 <li>SYNTHETIK: Arena - 0.5h played.</li>
@@ -298,7 +304,7 @@
 <li>Scrap Mechanic - 3.0h played.</li>
 <li>Secret World Legends - 0.2h played.</li>
 <li>Seduce Me the Otome - 0.1h played.</li>
-<li>Sekiro™: Shadows Die Twice - 59.8h played.</li>
+<li>Sekiro™: Shadows Die Twice - 88.6h played.</li>
 <li>Shadow Tactics: Blades of the Shogun - 0.7h played.</li>
 <li>Shift Happens - 1.9h played.</li>
 <li>Shogun Showdown: Prologue - 1.1h played.</li>
@@ -306,7 +312,7 @@
 <li>Sifu - 9.4h played.</li>
 <li>Skyborn - 0.0h played.</li>
 <li>Skyrim Script Extender (SKSE) - 1.6h played.</li>
-<li>Slay the Spire - 156.1h played.</li>
+<li>Slay the Spire - 158.6h played.</li>
 <li>Slime Rancher - 0.9h played.</li>
 <li>Slipstream 5000 - 1.3h played.</li>
 <li>Somewhere in the Shadow - 1.3h played.</li>
@@ -329,6 +335,7 @@
 <li>Starbound - 112.8h played.</li>
 <li>Starbound - Unstable - 0.8h played.</li>
 <li>Stardew Valley - 9.8h played.</li>
+<li>Stick It to the Stickman - 4.8h played.</li>
 <li>Stronghold Kingdoms - 1.2h played.</li>
 <li>Stubbs the Zombie in Rebel Without a Pulse - 0.0h played.</li>
 <li>Stumble Guys - 0.9h played.</li>
@@ -359,6 +366,7 @@
 <li>Tom Clancy's Rainbow Six® Siege X - 7.9h played.</li>
 <li>Toribash - 23.1h played.</li>
 <li>Totally Accurate Battlegrounds - 0.6h played.</li>
+<li>Tower Wizard - 4.5h played.</li>
 <li>TrackMania Nations Forever - 0.0h played.</li>
 <li>Transformice - 3.4h played.</li>
 <li>Trove - 0.0h played.</li>
