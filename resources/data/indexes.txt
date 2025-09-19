@@ -1,4 +1,4 @@
-<p>Number of available pages: 23</p> 
+<p>Number of available pages: 24</p> 
 <ul>
 <li class='folder'><strong>About Me:</strong></li>
 <ul>
@@ -53,6 +53,7 @@
 <li class='folder'><strong>Etc:</strong></li>
 <ul>
 <li class="file"><a href="./html/about_me/thoughts/collection/etc/broke_up.html">Broke Up</a></li>
+<li class="file"><a href="./html/about_me/thoughts/collection/etc/es.html">Es</a></li>
 <li class="file"><a href="./html/about_me/thoughts/collection/etc/lone_hero.html">Lone Hero</a></li>
 </ul>
 <li class='folder'><strong>Life:</strong></li>
