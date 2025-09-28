@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chaotic Poem Page</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: #111;
+        font-family: sans-serif;
+        overflow-x: hidden;
+        color: white;
+        height: 200vh; /* allow scrolling chaos */
+      }
+
+      /* Ghosted poem background */
+      .background-poem {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        color: rgba(255, 0, 0, 0.03);
+        font-size: 3em;
+        line-height: 1.2;
+        white-space: pre-line;
+        z-index: 0;
+        pointer-events: none;
+      }
+
+      /* Central readable poem */
+      .center-poem {
+        position: relative;
+        z-index: 5;
+        max-width: 600px;
+        margin: 150px auto;
+        text-align: center;
+        font-size: 1.5em;
+        line-height: 1.5;
+        color: white;
+      }
+
+      /* Glitchy keywords */
+      .glitch {
+        position: absolute;
+        font-weight: bold;
+        font-size: 1.5em;
+        white-space: nowrap;
+        color: red;
+        animation: glitchAnim 0.2s infinite alternate;
+      }
+
+      .glitch::before,
+      .glitch::after {
+        content: attr(data-text);
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: white;
+        opacity: 0.6;
+      }
+
+      .glitch::before {
+        transform: translate(-1px, 0);
+      }
+
+      .glitch::after {
+        transform: translate(1px, 1px);
+      }
+
+      @keyframes glitchAnim {
+        0% {
+          transform: translate(0, 0) rotate(0deg);
+        }
+        25% {
+          transform: translate(1px, -1px) rotate(-1deg);
+        }
+        50% {
+          transform: translate(-1px, 1px) rotate(1deg);
+        }
+        75% {
+          transform: translate(1px, 1px) rotate(-1deg);
+        }
+        100% {
+          transform: translate(0, -1px) rotate(0deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Background ghost poems, repeated multiple times -->
+    <div class="background-poem">
+      It’s been a long time since joy had reason to stay Fleeting moments with
+      friends aside No goals. No achievements. No growth Stuck even before the
+      start line It’s been a long time since joy had reason to stay Fleeting
+      moments with friends aside No goals. No achievements. No growth Stuck even
+      before the start line It’s been a long time since joy had reason to stay
+      Fleeting moments with friends aside No goals. No achievements. No growth
+      Stuck even before the start line
+    </div>
+
+    <!-- Central readable poem -->
+    <div class="center-poem">
+      It’s been a long time since joy had reason to stay<br />
+      Fleeting moments with friends aside<br />
+      No goals. No achievements. No growth<br />
+      Stuck even before the start line
+    </div>
+
+    <!-- Chaos keywords with glitch effect -->
+    <div class="keywords">
+      <span
+        class="glitch"
+        data-text="Stuck"
+        style="top: 5%; left: 10%; transform: rotate(-25deg)"
+        >Stuck</span
+      >
+      <span
+        class="glitch"
+        data-text="No growth"
+        style="top: 20%; left: 70%; transform: rotate(15deg)"
+        >No growth</span
+      >
+      <span
+        class="glitch"
+        data-text="Regret"
+        style="top: 35%; left: 40%; transform: rotate(-10deg)"
+        >Regret</span
+      >
+      <span
+        class="glitch"
+        data-text="No goals"
+        style="top: 50%; left: 80%; transform: rotate(30deg)"
+        >No goals</span
+      >
+      <span
+        class="glitch"
+        data-text="No achievements"
+        style="top: 65%; left: 15%; transform: rotate(-20deg)"
+        >No achievements</span
+      >
+      <span
+        class="glitch"
+        data-text="Stuck"
+        style="top: 80%; left: 60%; transform: rotate(10deg)"
+        >Stuck</span
+      >
+      <span
+        class="glitch"
+        data-text="No growth"
+        style="top: 10%; left: 50%; transform: rotate(-40deg)"
+        >No growth</span
+      >
+      <span
+        class="glitch"
+        data-text="Regret"
+        style="top: 90%; left: 30%; transform: rotate(25deg)"
+        >Regret</span
+      >
+      <span
+        class="glitch"
+        data-text="No goals"
+        style="top: 40%; left: 5%; transform: rotate(35deg)"
+        >No goals</span
+      >
+      <span
+        class="glitch"
+        data-text="Stuck"
+        style="top: 75%; left: 75%; transform: rotate(-15deg)"
+        >Stuck</span
+      >
+    </div>
+  </body>
+</html>
