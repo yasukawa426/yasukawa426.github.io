@@ -1,4 +1,4 @@
-<p>Number of available pages: 26</p> 
+<p>Number of available pages: 27</p> 
 <ul>
 <li class='folder'><strong>About Me:</strong></li>
 <ul>
@@ -86,6 +86,7 @@
 <li class="file"><a href="./html/random_pages/404.html">404</a></li>
 <li class="file"><a href="./html/random_pages/changelog.html">Changelog</a></li>
 <li class="file"><a href="./html/random_pages/roadmap.html">Roadmap</a></li>
+<li class="file"><a href="./html/random_pages/test.html">Test</a></li>
 </ul>
 <li class='folder'><strong>Templates:</strong></li>
 <ul>
