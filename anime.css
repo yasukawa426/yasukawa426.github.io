@@ -1,6 +1,6 @@
 :root {
   /* --header-image: url(resources/stars.gif); */
-  --body-bg-image: url("/resources/background_images/rakka.jpg");
+  --body-bg-image: url("/resources/background_images/dithered-raka.png");
   /* rgba(0, 30, 60, 0.5) - rgba(0, 0, 0, 0.6) */
   --content: rgba(0, 0, 0, 0.5);
   --text-color: white;
@@ -90,7 +90,7 @@ body {
   background-color: #b6daef;
   color: var(--text-color);
   background-image: var(--body-bg-image);
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 1); /* dark shadow */
