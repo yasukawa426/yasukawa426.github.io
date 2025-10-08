@@ -1,4 +1,4 @@
-<p>Owned Games: <strong>265</strong>.<p>Total Playtime: <strong>3075.3</strong> hours.<ul><li>(the) Gnorp Apologue - 8.7h played.</li>
+<p>Owned Games: <strong>268</strong>.<p>Total Playtime: <strong>3088.7</strong> hours.<ul><li>(the) Gnorp Apologue - 8.7h played.</li>
 <li>ANIME STANDING - 0.6h played.</li>
 <li>ARK: Survival Evolved - 0.5h played.</li>
 <li>ARK: Survival Of The Fittest - 0.0h played.</li>
@@ -12,6 +12,7 @@
 <li>Assassin's Creed II - 9.3h played.</li>
 <li>Assassin's Creed III Remastered - 0.0h played.</li>
 <li>Assassin's Creed Odyssey - 2.3h played.</li>
+<li>Assassin's Creed Unity - 0.0h played.</li>
 <li>Barony - 2.8h played.</li>
 <li>Barotrauma - 6.4h played.</li>
 <li>Battlefield™ 6 Open Beta - 3.3h played.</li>
@@ -87,6 +88,7 @@
 <li>Half-Life 2 - 0.0h played.</li>
 <li>Half-Life 2: Deathmatch - 0.0h played.</li>
 <li>Half-Life Deathmatch: Source - 0.0h played.</li>
+<li>Haven - 0.0h played.</li>
 <li>Hellblade: Senua's Sacrifice - 2.2h played.</li>
 <li>Hellblade: Senua's Sacrifice VR Edition - 0.0h played.</li>
 <li>Hentai Killer - 0.2h played.</li>
@@ -121,6 +123,7 @@
 <li>METAL GEAR SOLID V: GROUND ZEROES - 0.9h played.</li>
 <li>METAL GEAR SOLID V: THE PHANTOM PAIN - 9.1h played.</li>
 <li>Made in Abyss: Binary Star Falling into Darkness - 4.3h played.</li>
+<li>Mage Arena - 1.8h played.</li>
 <li>Mega Man X Legacy Collection - 15.1h played.</li>
 <li>Mega Man X Legacy Collection 2 - 1.4h played.</li>
 <li>Mega Man Zero/ZX Legacy Collection - 11.4h played.</li>
@@ -162,7 +165,7 @@
 <li>Prince of Persia: The Sands of Time - 0.3h played.</li>
 <li>Prince of Persia: The Two Thrones - 0.0h played.</li>
 <li>Prince of Persia: Warrior Within - 0.0h played.</li>
-<li>Project Zomboid - 34.8h played.</li>
+<li>Project Zomboid - 46.4h played.</li>
 <li>R.E.P.O. - 12.1h played.</li>
 <li>REMATCH - 7.5h played.</li>
 <li>REMATCH BETA TEST - 5.5h played.</li>
