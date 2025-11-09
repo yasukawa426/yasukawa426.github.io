@@ -1,5 +1,7 @@
-<p>Owned Games: <strong>268</strong>.<p>Total Playtime: <strong>3088.7</strong> hours.<ul><li>(the) Gnorp Apologue - 8.7h played.</li>
+<p>Owned Games: <strong>271</strong>.<p>Total Playtime: <strong>3102.1</strong> hours.<ul><li>(the) Gnorp Apologue - 8.7h played.</li>
 <li>ANIME STANDING - 0.6h played.</li>
+<li>ARC Raiders - 0.0h played.</li>
+<li>ARC Raiders Playtest - 3.2h played.</li>
 <li>ARK: Survival Evolved - 0.5h played.</li>
 <li>ARK: Survival Of The Fittest - 0.0h played.</li>
 <li>ASTRONEER - 22.2h played.</li>
@@ -12,7 +14,7 @@
 <li>Assassin's Creed II - 9.3h played.</li>
 <li>Assassin's Creed III Remastered - 0.0h played.</li>
 <li>Assassin's Creed Odyssey - 2.3h played.</li>
-<li>Assassin's Creed Unity - 0.0h played.</li>
+<li>Assassin's Creed Unity - 0.2h played.</li>
 <li>Barony - 2.8h played.</li>
 <li>Barotrauma - 6.4h played.</li>
 <li>Battlefield™ 6 Open Beta - 3.3h played.</li>
@@ -118,6 +120,7 @@
 <li>Lethal Company - 6.2h played.</li>
 <li>Life is Strange™ - 9.1h played.</li>
 <li>Little Nightmares - 0.2h played.</li>
+<li>Little Nightmares Enhanced Edition - 0.0h played.</li>
 <li>Lossless Scaling - 6.7h played.</li>
 <li>METAL GEAR RISING: REVENGEANCE - 8.4h played.</li>
 <li>METAL GEAR SOLID V: GROUND ZEROES - 0.9h played.</li>
@@ -165,7 +168,7 @@
 <li>Prince of Persia: The Sands of Time - 0.3h played.</li>
 <li>Prince of Persia: The Two Thrones - 0.0h played.</li>
 <li>Prince of Persia: Warrior Within - 0.0h played.</li>
-<li>Project Zomboid - 46.4h played.</li>
+<li>Project Zomboid - 52.8h played.</li>
 <li>R.E.P.O. - 12.1h played.</li>
 <li>REMATCH - 7.5h played.</li>
 <li>REMATCH BETA TEST - 5.5h played.</li>
@@ -180,7 +183,7 @@
 <li>Resident Evil 3 - 7.0h played.</li>
 <li>Resident Evil 4 - 32.6h played.</li>
 <li>Resident Evil 4 (2005) - 0.0h played.</li>
-<li>Resident Evil 5 - 13.0h played.</li>
+<li>Resident Evil 5 - 15.0h played.</li>
 <li>Resident Evil 7 Biohazard - 23.8h played.</li>
 <li>Resident Evil Re:Verse - 0.0h played.</li>
 <li>Resident Evil Village - 20.4h played.</li>
@@ -249,9 +252,9 @@
 <li>Valkyria Chronicles 4 Complete Edition - 0.0h played.</li>
 <li>Valkyria Chronicles™ - 0.3h played.</li>
 <li>Wall World - 10.9h played.</li>
-<li>Wallpaper Engine - 38.6h played.</li>
+<li>Wallpaper Engine - 38.7h played.</li>
 <li>Warhammer 40,000: Gladius - Relics of War - 0.0h played.</li>
-<li>Warhammer: Vermintide 2 - 0.0h played.</li>
+<li>Warhammer: Vermintide 2 - 1.4h played.</li>
 <li>We Happy Few - 2.3h played.</li>
 <li>We Happy Few - Soundtrack and Digital Goods Bundle - 0.0h played.</li>
 <li>We Were Here Together - 0.0h played.</li>
