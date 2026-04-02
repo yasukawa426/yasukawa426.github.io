@@ -1,13 +1,14 @@
-<p>Owned Games: <strong>271</strong>.<p>Total Playtime: <strong>3102.1</strong> hours.<ul><li>(the) Gnorp Apologue - 8.7h played.</li>
+<p>Owned Games: <strong>294</strong>.<p>Total Playtime: <strong>3476.4</strong> hours.<ul><li>(the) Gnorp Apologue - 8.7h played.</li>
+<li>100% Orange Juice - 0.0h played.</li>
 <li>ANIME STANDING - 0.6h played.</li>
-<li>ARC Raiders - 0.0h played.</li>
+<li>ARC Raiders - 55.1h played.</li>
 <li>ARC Raiders Playtest - 3.2h played.</li>
 <li>ARK: Survival Evolved - 0.5h played.</li>
 <li>ARK: Survival Of The Fittest - 0.0h played.</li>
 <li>ASTRONEER - 22.2h played.</li>
 <li>Abiotic Factor - 38.0h played.</li>
 <li>Ace of Spades - 5.5h played.</li>
-<li>Alan Wake - 0.0h played.</li>
+<li>Alan Wake - 1.7h played.</li>
 <li>Alan Wake's American Nightmare - 0.0h played.</li>
 <li>Among Us - 17.1h played.</li>
 <li>Assassin's Creed - 3.2h played.</li>
@@ -18,7 +19,7 @@
 <li>Barony - 2.8h played.</li>
 <li>Barotrauma - 6.4h played.</li>
 <li>Battlefield™ 6 Open Beta - 3.3h played.</li>
-<li>Bayonetta - 0.0h played.</li>
+<li>Bayonetta - 1.7h played.</li>
 <li>Before The Green Moon - 5.5h played.</li>
 <li>Black Desert - 0.0h played.</li>
 <li>Black Desert SA (Retired) - 0.0h played.</li>
@@ -28,42 +29,51 @@
 <li>Borderlands GOTY - 9.2h played.</li>
 <li>Borderlands GOTY Enhanced - 0.0h played.</li>
 <li>Borderlands: The Pre-Sequel - 1.4h played.</li>
-<li>Brotato - 4.5h played.</li>
+<li>Brotato - 10.3h played.</li>
 <li>Camera Obscura - 0.6h played.</li>
-<li>Capcom Arcade Stadium - 0.0h played.</li>
-<li>Cat in the Box - 0.0h played.</li>
+<li>Capcom Arcade Stadium - 1.7h played.</li>
+<li>Cat in the Box - 1.7h played.</li>
 <li>Contagion - 2.4h played.</li>
 <li>Content Warning - 2.0h played.</li>
 <li>Cookie Clicker - 133.5h played.</li>
-<li>Core Keeper - 2.5h played.</li>
+<li>Core Keeper - 5.9h played.</li>
+<li>Crowalt: Traces of the Lost Colony - 0.0h played.</li>
 <li>Cyberpunk 2077 - 30.6h played.</li>
 <li>DARK SOULS™ III - 42.5h played.</li>
 <li>DEATH STRANDING - 59.8h played.</li>
-<li>DEATH STRANDING DIRECTOR'S CUT - 33.3h played.</li>
-<li>DOOM - 1.6h played.</li>
+<li>DEATH STRANDING DIRECTOR'S CUT - 54.9h played.</li>
+<li>DOOM - 3.4h played.</li>
+<li>DR LIVESEY ROM AND DEATH EDITION - 0.1h played.</li>
 <li>DRAGON BALL XENOVERSE 2 - 26.2h played.</li>
-<li>DRAGON BALL Z: KAKAROT - 0.5h played.</li>
+<li>DRAGON BALL Z: KAKAROT - 2.2h played.</li>
+<li>Danganronpa 2: Goodbye Despair - 1.7h played.</li>
+<li>Danganronpa Another Episode: Ultra Despair Girls - 0.8h played.</li>
+<li>Danganronpa V3: Killing Harmony - 0.2h played.</li>
+<li>Danganronpa: Trigger Happy Havoc - 0.2h played.</li>
 <li>Darkest Dungeon® - 18.4h played.</li>
-<li>Dead Cells - 2.1h played.</li>
+<li>Dead Cells - 8.1h played.</li>
 <li>Dead Island: Epidemic - 0.7h played.</li>
 <li>Dead by Daylight - 46.8h played.</li>
 <li>Deadlock - 1.7h played.</li>
+<li>Deadly Premonition 2 - 0.2h played.</li>
+<li>Deadly Premonition: The Director's Cut - 0.2h played.</li>
 <li>Deep Rock Galactic - 4.2h played.</li>
-<li>Demon Turf - 1.4h played.</li>
+<li>Demon Turf - 3.4h played.</li>
+<li>Deponia - 0.0h played.</li>
 <li>Devil May Cry 5 - 4.3h played.</li>
 <li>Disco Elysium - 11.9h played.</li>
-<li>Dishonored 2 - 2.1h played.</li>
+<li>Dishonored 2 - 3.6h played.</li>
 <li>Dishonored®: Death of the Outsider™  - 0.0h played.</li>
 <li>Disillusion - 0.4h played.</li>
 <li>Don't Starve - 52.3h played.</li>
 <li>Don't Starve Together - 42.6h played.</li>
-<li>Dragon's Dogma: Dark Arisen - 0.0h played.</li>
+<li>Dragon's Dogma: Dark Arisen - 0.2h played.</li>
 <li>Dungeon of the ENDLESS™ - 0.0h played.</li>
 <li>Dying Light - 7.7h played.</li>
 <li>ELDEN RING - 58.5h played.</li>
 <li>Empyrion - Galactic Survival - 0.0h played.</li>
-<li>Enter the Gungeon - 0.0h played.</li>
-<li>Euro Truck Simulator 2 - 1.2h played.</li>
+<li>Enter the Gungeon - 2.6h played.</li>
+<li>Euro Truck Simulator 2 - 2.9h played.</li>
 <li>Evolve Stage 2 - 1.8h played.</li>
 <li>FAR: Lone Sails - 3.0h played.</li>
 <li>FINAL FANTASY IX - 2.7h played.</li>
@@ -75,46 +85,50 @@
 <li>Fear & Hunger - 2.2h played.</li>
 <li>Feel The Snow - 3.6h played.</li>
 <li>GRID 2 - 0.0h played.</li>
-<li>GTFO - 2.1h played.</li>
+<li>GTFO - 5.1h played.</li>
 <li>Garry's Mod - 147.2h played.</li>
 <li>Grand Theft Auto IV: The Complete Edition - 0.8h played.</li>
 <li>Grand Theft Auto V Enhanced - 0.0h played.</li>
 <li>Grand Theft Auto V Legacy - 87.0h played.</li>
-<li>Graveyard Keeper - 4.2h played.</li>
-<li>Green Hell - 6.2h played.</li>
+<li>Graveyard Keeper - 38.8h played.</li>
+<li>Green Hell - 6.7h played.</li>
 <li>HELLION - 0.0h played.</li>
 <li>HOPE LEFT ME - 0.0h played.</li>
 <li>Half Minute Hero: Super Mega Neo Climax Ultimate Boy - 0.5h played.</li>
 <li>Half Minute Hero: The Second Coming - 2.9h played.</li>
+<li>Half Sword Playtest - 1.0h played.</li>
 <li>Half-Life - 0.0h played.</li>
 <li>Half-Life 2 - 0.0h played.</li>
 <li>Half-Life 2: Deathmatch - 0.0h played.</li>
 <li>Half-Life Deathmatch: Source - 0.0h played.</li>
-<li>Haven - 0.0h played.</li>
-<li>Hellblade: Senua's Sacrifice - 2.2h played.</li>
+<li>Haven - 0.2h played.</li>
+<li>Hellblade: Senua's Sacrifice - 8.2h played.</li>
 <li>Hellblade: Senua's Sacrifice VR Edition - 0.0h played.</li>
-<li>Hentai Killer - 0.2h played.</li>
+<li>Hentai Killer - 1.9h played.</li>
 <li>Horizon Zero Dawn™ Complete Edition - 1.8h played.</li>
 <li>House Party - 3.0h played.</li>
 <li>Hyper Universe - 0.0h played.</li>
 <li>Inside the Backrooms - 2.6h played.</li>
 <li>Into the Breach - 3.1h played.</li>
+<li>Into the Unwell Playtest - 0.0h played.</li>
 <li>Jalopy - 4.0h played.</li>
 <li>Jotun: Valhalla Edition - 1.1h played.</li>
 <li>Journey To The Savage Planet - 1.7h played.</li>
 <li>Juice Galaxy - 3.3h played.</li>
 <li>Just Cause 2 - 0.7h played.</li>
-<li>KLETKA - 4.5h played.</li>
+<li>Just Ignore Them - 0.0h played.</li>
+<li>KLETKA - 6.6h played.</li>
 <li>Kill The Crows - 3.4h played.</li>
 <li>Killing Floor - 15.3h played.</li>
 <li>Killing Floor Mod: Defence Alliance 2 - 1.6h played.</li>
-<li>King Lucas - 0.0h played.</li>
+<li>King Lucas - 0.2h played.</li>
 <li>King of the Bridge - 2.2h played.</li>
-<li>Kingdom Come: Deliverance - 4.2h played.</li>
+<li>Kingdom Come: Deliverance - 42.8h played.</li>
 <li>Kingdom Two Crowns - 15.6h played.</li>
 <li>Kingdom: Classic - 3.2h played.</li>
 <li>KinitoPET - 3.6h played.</li>
 <li>Knightfall: A Daring Journey - 0.0h played.</li>
+<li>Last Report - 1.5h played.</li>
 <li>Left 4 Dead - 0.3h played.</li>
 <li>Left 4 Dead 2 - 5.0h played.</li>
 <li>Lethal Company - 6.2h played.</li>
@@ -125,29 +139,30 @@
 <li>METAL GEAR RISING: REVENGEANCE - 8.4h played.</li>
 <li>METAL GEAR SOLID V: GROUND ZEROES - 0.9h played.</li>
 <li>METAL GEAR SOLID V: THE PHANTOM PAIN - 9.1h played.</li>
-<li>Made in Abyss: Binary Star Falling into Darkness - 4.3h played.</li>
+<li>Made in Abyss: Binary Star Falling into Darkness - 4.8h played.</li>
 <li>Mage Arena - 1.8h played.</li>
 <li>Mega Man X Legacy Collection - 15.1h played.</li>
 <li>Mega Man X Legacy Collection 2 - 1.4h played.</li>
 <li>Mega Man Zero/ZX Legacy Collection - 11.4h played.</li>
 <li>Metro 2033 Redux - 0.0h played.</li>
-<li>Metro Exodus - 0.6h played.</li>
+<li>Metro Exodus - 2.2h played.</li>
 <li>Metro Exodus Enhanced Edition - 0.4h played.</li>
 <li>Metro: Last Light Complete Edition - 0.0h played.</li>
 <li>Metro: Last Light Redux - 3.4h played.</li>
-<li>Middle-earth™: Shadow of Mordor™ - 1.4h played.</li>
+<li>Middle-earth™: Shadow of Mordor™ - 5.6h played.</li>
 <li>Middle-earth™: Shadow of War™ - 0.0h played.</li>
 <li>Milk inside a bag of milk inside a bag of milk - 0.0h played.</li>
 <li>Minion Masters - 0.0h played.</li>
 <li>Mister Furry: Hot Muscles - 0.0h played.</li>
 <li>Mortal Shell - 0.0h played.</li>
 <li>Mysterium - 1.1h played.</li>
-<li>Mystery Chronicle: One Way Heroics - 1.0h played.</li>
+<li>Mystery Chronicle: One Way Heroics - 2.7h played.</li>
 <li>NARUTO TO BORUTO: SHINOBI STRIKER - 1.3h played.</li>
 <li>NiGHTS into Dreams... - 0.0h played.</li>
-<li>Noita - 171.4h played.</li>
+<li>Noita - 171.5h played.</li>
+<li>Nunholy - 6.2h played.</li>
 <li>Occult Rewrite - 2.3h played.</li>
-<li>One Way Heroics - 0.9h played.</li>
+<li>One Way Heroics - 2.6h played.</li>
 <li>Onirism - 1.4h played.</li>
 <li>Overcooked - 7.0h played.</li>
 <li>Oxygen Not Included - 11.2h played.</li>
@@ -155,11 +170,11 @@
 <li>PAYDAY: The Heist - 9.3h played.</li>
 <li>PEAK - 6.5h played.</li>
 <li>PICO PARK - 4.1h played.</li>
-<li>Peekaboo - 0.9h played.</li>
+<li>Peekaboo - 2.6h played.</li>
 <li>Phasmophobia - 31.9h played.</li>
 <li>Phoenix Wright: Ace Attorney Trilogy - 0.0h played.</li>
 <li>Pikuniku - 4.1h played.</li>
-<li>Planet Coaster - 0.7h played.</li>
+<li>Planet Coaster - 2.4h played.</li>
 <li>Portal - 0.0h played.</li>
 <li>Portal 2 - 0.0h played.</li>
 <li>Potionomics - 9.9h played.</li>
@@ -176,37 +191,42 @@
 <li>ROGUE LIGHT DECK BUILDER - 2.1h played.</li>
 <li>RPG Maker XP - 0.0h played.</li>
 <li>Rain World - 5.7h played.</li>
-<li>Red Dead Redemption 2 - 29.1h played.</li>
+<li>ReStory Playtest - 0.8h played.</li>
+<li>Red Dead Redemption 2 - 49.1h played.</li>
 <li>Resident Evil - 2.0h played.</li>
 <li>Resident Evil 0 - 0.0h played.</li>
-<li>Resident Evil 2 - 27.4h played.</li>
+<li>Resident Evil 2 - 27.7h played.</li>
 <li>Resident Evil 3 - 7.0h played.</li>
-<li>Resident Evil 4 - 32.6h played.</li>
+<li>Resident Evil 4 - 39.2h played.</li>
 <li>Resident Evil 4 (2005) - 0.0h played.</li>
 <li>Resident Evil 5 - 15.0h played.</li>
+<li>Resident Evil 6 - 0.0h played.</li>
 <li>Resident Evil 7 Biohazard - 23.8h played.</li>
 <li>Resident Evil Re:Verse - 0.0h played.</li>
 <li>Resident Evil Village - 20.4h played.</li>
 <li>RimWorld - 384.4h played.</li>
 <li>Risk of Rain 2 - 11.2h played.</li>
-<li>Rust - 0.6h played.</li>
+<li>Rust - 2.3h played.</li>
 <li>Rust - Staging Branch - 0.0h played.</li>
 <li>SEGA Mega Drive & Genesis Classics - 3.9h played.</li>
 <li>SONIC THE HEDGEHOG 4 Episode I - 0.9h played.</li>
 <li>SONIC THE HEDGEHOG 4 Episode II - 2.2h played.</li>
+<li>SONIC X SHADOW GENERATIONS - 5.0h played.</li>
 <li>Sand Playtest - 0.0h played.</li>
 <li>Satisfactory - 36.8h played.</li>
+<li>Score the Fear - 0.9h played.</li>
 <li>Scrap Mechanic - 3.0h played.</li>
 <li>Sekiro™: Shadows Die Twice - 88.6h played.</li>
-<li>Shadow Tactics: Blades of the Shogun - 0.7h played.</li>
-<li>Shift Happens - 1.9h played.</li>
+<li>Shadow Tactics: Blades of the Shogun - 2.4h played.</li>
+<li>Shift Happens - 3.9h played.</li>
 <li>Sid Meier's Civilization VI - 10.2h played.</li>
-<li>Sifu - 9.4h played.</li>
+<li>Sifu - 29.3h played.</li>
 <li>Skyborn - 0.0h played.</li>
-<li>Slay the Spire - 158.6h played.</li>
-<li>Slime Rancher - 0.9h played.</li>
+<li>Slay the Spire - 181.0h played.</li>
+<li>Slay the Spire 2 - 30.1h played.</li>
+<li>Slime Rancher - 2.6h played.</li>
 <li>Slipstream 5000 - 1.3h played.</li>
-<li>Somewhere in the Shadow - 1.3h played.</li>
+<li>Somewhere in the Shadow - 4.0h played.</li>
 <li>Sonic & All-Stars Racing Transformed Collection - 3.6h played.</li>
 <li>Sonic Adventure DX - 0.9h played.</li>
 <li>Sonic Adventure™ 2  - 23.9h played.</li>
@@ -231,42 +251,45 @@
 <li>The Elder Scrolls V: Skyrim - 71.6h played.</li>
 <li>The Elder Scrolls V: Skyrim Special Edition - 1.9h played.</li>
 <li>The Forest - 11.2h played.</li>
-<li>The Great Ace Attorney Chronicles - 1.6h played.</li>
+<li>The Great Ace Attorney Chronicles - 4.6h played.</li>
 <li>The Mean Greens - Plastic Warfare - 3.0h played.</li>
 <li>The NOexistenceN of you AND me - 3.3h played.</li>
 <li>The Past Within - 1.9h played.</li>
+<li>The Use of Life - 18.2h played.</li>
 <li>The Walking Dead: The Telltale Definitive Series - 0.0h played.</li>
 <li>The Witch's House MV - 1.9h played.</li>
 <li>The Witcher 3: Wild Hunt - 5.5h played.</li>
+<li>Tom Clancy's Rainbow Six Siege - 7.9h played.</li>
 <li>Tom Clancy's Rainbow Six Siege - Test Server - 0.0h played.</li>
-<li>Tom Clancy's Rainbow Six® Siege X - 7.9h played.</li>
 <li>Totally Accurate Battlegrounds - 0.6h played.</li>
 <li>Tower Wizard - 4.5h played.</li>
+<li>Toy Tinker Simulator - 0.0h played.</li>
 <li>Trove - 0.0h played.</li>
 <li>UNO - 4.4h played.</li>
 <li>Undertale - 0.0h played.</li>
 <li>Unforgiving Trials: The Darkest Crusade - 2.6h played.</li>
-<li>Unravel Two - 1.6h played.</li>
+<li>Unravel Two - 4.6h played.</li>
 <li>Unturned - 44.2h played.</li>
 <li>Valheim - 6.2h played.</li>
 <li>Valkyria Chronicles 4 Complete Edition - 0.0h played.</li>
-<li>Valkyria Chronicles™ - 0.3h played.</li>
+<li>Valkyria Chronicles™ - 2.0h played.</li>
 <li>Wall World - 10.9h played.</li>
 <li>Wallpaper Engine - 38.7h played.</li>
 <li>Warhammer 40,000: Gladius - Relics of War - 0.0h played.</li>
-<li>Warhammer: Vermintide 2 - 1.4h played.</li>
+<li>Warhammer: Vermintide 2 - 3.1h played.</li>
+<li>Wavetale - 0.0h played.</li>
 <li>We Happy Few - 2.3h played.</li>
 <li>We Happy Few - Soundtrack and Digital Goods Bundle - 0.0h played.</li>
 <li>We Were Here Together - 0.0h played.</li>
 <li>We Were Here Too - 4.6h played.</li>
 <li>Who Needs a Hero? - 5.7h played.</li>
-<li>Who's Your Daddy?! - 0.3h played.</li>
+<li>Who's Your Daddy?! - 2.1h played.</li>
 <li>Wildgate Community Preview - 0.0h played.</li>
 <li>Witch It - 3.9h played.</li>
 <li>Worms Armageddon - 11.7h played.</li>
 <li>Worms Revolution - 5.5h played.</li>
 <li>Worms Ultimate Mayhem - 0.8h played.</li>
-<li>XCOM 2 - 3.1h played.</li>
-<li>Your Mother - 0.2h played.</li>
+<li>XCOM 2 - 7.7h played.</li>
+<li>Your Mother - 1.9h played.</li>
 <li>Zort - 2.4h played.</li>
 </ul>
