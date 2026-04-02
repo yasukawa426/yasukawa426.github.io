@@ -7,3 +7,5 @@ https://docs.github.com/en - Github APIs doc.
 https://staticman.net/ - User-generated content to static sites.
 https://travisdowns.github.io/blog/2020/02/05/now-with-comments.html#set-up-github-bot-account - Staticman implementation example.
 https://render.com/ - Heroku alternative with free plan.
+
+test
