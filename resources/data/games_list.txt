@@ -1,4 +1,4 @@
-<p>Owned Games: <strong>294</strong>.<p>Total Playtime: <strong>3476.4</strong> hours.<ul><li>(the) Gnorp Apologue - 8.7h played.</li>
+<p>Owned Games: <strong>295</strong>.<p>Total Playtime: <strong>3495.1</strong> hours.<ul><li>(the) Gnorp Apologue - 8.7h played.</li>
 <li>100% Orange Juice - 0.0h played.</li>
 <li>ANIME STANDING - 0.6h played.</li>
 <li>ARC Raiders - 55.1h played.</li>
@@ -35,7 +35,7 @@
 <li>Cat in the Box - 1.7h played.</li>
 <li>Contagion - 2.4h played.</li>
 <li>Content Warning - 2.0h played.</li>
-<li>Cookie Clicker - 133.5h played.</li>
+<li>Cookie Clicker - 133.8h played.</li>
 <li>Core Keeper - 5.9h played.</li>
 <li>Crowalt: Traces of the Lost Colony - 0.0h played.</li>
 <li>Cyberpunk 2077 - 30.6h played.</li>
@@ -72,7 +72,7 @@
 <li>Dying Light - 7.7h played.</li>
 <li>ELDEN RING - 58.5h played.</li>
 <li>Empyrion - Galactic Survival - 0.0h played.</li>
-<li>Enter the Gungeon - 2.6h played.</li>
+<li>Enter the Gungeon - 3.5h played.</li>
 <li>Euro Truck Simulator 2 - 2.9h played.</li>
 <li>Evolve Stage 2 - 1.8h played.</li>
 <li>FAR: Lone Sails - 3.0h played.</li>
@@ -106,6 +106,7 @@
 <li>Hellblade: Senua's Sacrifice VR Edition - 0.0h played.</li>
 <li>Hentai Killer - 1.9h played.</li>
 <li>Horizon Zero Dawn™ Complete Edition - 1.8h played.</li>
+<li>House Flipper - 0.0h played.</li>
 <li>House Party - 3.0h played.</li>
 <li>Hyper Universe - 0.0h played.</li>
 <li>Inside the Backrooms - 2.6h played.</li>
@@ -216,14 +217,14 @@
 <li>Satisfactory - 36.8h played.</li>
 <li>Score the Fear - 0.9h played.</li>
 <li>Scrap Mechanic - 3.0h played.</li>
-<li>Sekiro™: Shadows Die Twice - 88.6h played.</li>
+<li>Sekiro™: Shadows Die Twice - 88.7h played.</li>
 <li>Shadow Tactics: Blades of the Shogun - 2.4h played.</li>
 <li>Shift Happens - 3.9h played.</li>
 <li>Sid Meier's Civilization VI - 10.2h played.</li>
 <li>Sifu - 29.3h played.</li>
 <li>Skyborn - 0.0h played.</li>
-<li>Slay the Spire - 181.0h played.</li>
-<li>Slay the Spire 2 - 30.1h played.</li>
+<li>Slay the Spire - 185.8h played.</li>
+<li>Slay the Spire 2 - 42.2h played.</li>
 <li>Slime Rancher - 2.6h played.</li>
 <li>Slipstream 5000 - 1.3h played.</li>
 <li>Somewhere in the Shadow - 4.0h played.</li>
@@ -269,7 +270,7 @@
 <li>Undertale - 0.0h played.</li>
 <li>Unforgiving Trials: The Darkest Crusade - 2.6h played.</li>
 <li>Unravel Two - 4.6h played.</li>
-<li>Unturned - 44.2h played.</li>
+<li>Unturned - 44.7h played.</li>
 <li>Valheim - 6.2h played.</li>
 <li>Valkyria Chronicles 4 Complete Edition - 0.0h played.</li>
 <li>Valkyria Chronicles™ - 2.0h played.</li>
